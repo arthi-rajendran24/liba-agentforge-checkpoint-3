@@ -1,15 +1,22 @@
-# AgentForge composable checkpoint recovery
+# LIBA AgentForge Checkpoint 3
 
-This repository is a recovery reference, not the student's submitted project. Its Git history contains three cumulative checkpoints. A student may clone a complete checkpoint, or open this repository beside their existing project in Google Antigravity and merge only the missing layers.
+Clone this repository for the complete Day 1 reference, or open it beside a student's existing project in Google Antigravity. It contains all earlier layers plus reviewed image evidence, approved memory, local streaming and optional Telegram.
 
 ## Checkpoint 3: end-to-end reviewed agent
 
 This branch inherits Checkpoints 1 and 2. It adds image validation and extraction, explicit human approval before memory, local response streaming, and an optional Telegram channel. The interface and Telegram both reuse the Checkpoint 2 service.
 
 ```sh
+git clone https://github.com/arthi-rajendran24/liba-agentforge-checkpoint-3.git
+cd liba-agentforge-checkpoint-3
 uv sync
 uv run pytest -q
 uv run streamlit run app.py
 ```
 
-Live Gemini and Telegram paths are optional. Every checkpoint remains demonstrable in rehearsal mode. When merging, preserve any passing earlier student layer and apply only the missing Git delta shown in `RECOVERY_MATRIX.md`.
+Use `patches/checkpoint-1-to-3.patch` when the student has Checkpoint 1. Use `patches/checkpoint-2-to-3.patch` when Checkpoint 2 already passes. Preserve earlier student work and merge only missing layers.
+
+Earlier checkpoints:
+
+- https://github.com/arthi-rajendran24/liba-agentforge-checkpoint-1
+- https://github.com/arthi-rajendran24/liba-agentforge-checkpoint-2
