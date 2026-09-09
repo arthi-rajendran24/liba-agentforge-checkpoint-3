@@ -1,0 +1,71 @@
+{
+  "name": "Project Monsoon",
+  "company": "Aster Foods \u00b7 fictional",
+  "brief": "Launch a shelf-stable millet snack in Chennai and Bengaluru within 12 weeks, protecting customer trust and cash runway.",
+  "budget": 2400000,
+  "units": 30000,
+  "price": 120,
+  "unit_cost": 65,
+  "fixed_cost": 250000,
+  "marketing_budget": 180000,
+  "margin_target": 38,
+  "launch_days": 84,
+  "lead_days": 21,
+  "production_per_day": 600,
+  "team_fte": 8,
+  "required_fte": 10,
+  "hire_cost": 10000,
+  "required_skills": [
+    "planning",
+    "communication"
+  ],
+  "candidates": [
+    {
+      "candidate_id": "C-101",
+      "skills": [
+        "planning",
+        "communication",
+        "logistics"
+      ],
+      "work_sample_score": 82.0
+    },
+    {
+      "candidate_id": "C-102",
+      "skills": [
+        "planning",
+        "data analysis"
+      ],
+      "work_sample_score": 91.0
+    },
+    {
+      "candidate_id": "C-103",
+      "skills": [
+        "communication",
+        "sales"
+      ],
+      "work_sample_score": 77.0
+    }
+  ],
+  "signals": [
+    {
+      "channel": "Retail trials",
+      "responses": 120,
+      "positive": 92,
+      "previous_positive_rate": 0.7
+    },
+    {
+      "channel": "Creator sampling",
+      "responses": 90,
+      "positive": 71,
+      "previous_positive_rate": 0.72
+    },
+    {
+      "channel": "Campus survey",
+      "responses": 150,
+      "positive": 98,
+      "previous_positive_rate": 0.68
+    }
+  ],
+  "labelling_concern": false,
+  "evidence_note": "Fictional teaching inputs; unit economics, channels and candidates extend the original workshop scenario. Not market forecasts."
+}

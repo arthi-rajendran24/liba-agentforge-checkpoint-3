@@ -1,0 +1,10 @@
+{
+  "source": "Main workshop slide 14: fictional Project Monsoon brief",
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "image_extraction": {
+    "text": "The following facts are extracted from the provided workshop slide:\n\n*   **Session Details:** Day 1, Session 1, 90 minutes.\n*   **Case Study:** The shared case is titled \"Project Monsoon.\"\n*   **Financial and Operational Data:**\n    *   **Launch cash budget:** \u20b924 lakh.\n    *   **Units to produce:** 30,000.\n    *   **Launch window:** 84 days.\n    *   **Price / unit cost:** \u20b9120 / \u20b965.\n*   **Disclaimers:** \"Aster Foods is fictional. All figures are teaching assumptions.\"\n*   **Footer Information:**\n    *   Organizations/Entities: LIBA / AGENTFORGE JARVIS.\n    *   Slide Number: 14.\n\nHuman review required before saving as evidence.",
+    "saved": false
+  },
+  "http_status": 200
+}

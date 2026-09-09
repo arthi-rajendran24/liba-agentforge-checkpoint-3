@@ -1,0 +1,1944 @@
+[
+  {
+    "n": 1,
+    "title": "Build your\nAI business team.",
+    "kind": "cover",
+    "section": "LIBA · GUIDED DRY RUN",
+    "body": [],
+    "steps": [],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nToday we will assemble a working AI-agent workflow from a prepared repository. We will use simple business examples and check what actually happened.\n\nDEMONSTRATE / DO TOGETHER\nOpen Presenter View so these notes remain private. Keep the app and a terminal ready in separate windows. Share the actual GitHub repository link only after publishing and testing it.\n\nASK THE ROOM\nWho has used a chatbot? Who has opened a terminal?\n\nEXPECTED EVIDENCE\nA show of hands tells you which pairs need setup support.\n\nIF SOMEONE IS STUCK\nPair a confident terminal user with someone new. This is a rehearsal, not a coding-speed competition.",
+    "fast": true,
+    "image": "command-core.png",
+    "sub": "AgentForge JARVIS · Rehearsal edition\nBuild along with Arthi Rajendran",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026.",
+      "Original illustration generated with the built-in image_gen tool, 3 September 2026. Asset: workshop/assets/command-core.png."
+    ],
+    "labels": []
+  },
+  {
+    "n": 2,
+    "title": "By the end, your laptop runs the team.",
+    "kind": "points",
+    "section": "START HERE",
+    "body": [
+      "Clone and launch the local command center.",
+      "Build a small LangChain agent from a starter.",
+      "Adapt six specialists and test one business shock.",
+      "Save evidence and explain the final decision."
+    ],
+    "steps": [],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nA successful session ends with something you can show, not just a list of AI words. We will use templates, complete a small piece of code, and then inspect a six-agent system.\n\nDEMONSTRATE / DO TOGETHER\nPoint to the four outcomes. Tell participants they should keep their terminal output, one changed report and one export.\n\nASK THE ROOM\nWhat would count as proof that your agent worked?\n\nEXPECTED EVIDENCE\nThey name a tool result or a saved package, not just an attractive screen.\n\nIF SOMEONE IS STUCK\nPause for one pair to show the checkpoint before continuing.",
+    "fast": true,
+    "image": null,
+    "sub": "",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 3,
+    "title": "Today is a flight simulator for agents.",
+    "kind": "compare",
+    "section": "START HERE",
+    "body": [],
+    "steps": [],
+    "code": null,
+    "rows": [
+      [
+        "Scripted model responses",
+        "Model-generated responses"
+      ],
+      [
+        "Real LangChain tool calls",
+        "Real LangChain tool calls"
+      ],
+      [
+        "Real arithmetic and saved outputs",
+        "Real arithmetic plus model interpretation"
+      ],
+      [
+        "No model key required",
+        "Provider, model, key or local model required"
+      ]
+    ],
+    "notes": "SAY\nA flight simulator uses a real control system with a simulated flight. Our rehearsal adapter follows a fixed script; the tools still run and produce real calculations. It does not understand arbitrary language like a live model.\n\nDEMONSTRATE / DO TOGETHER\nShow the REHEARSAL MODE badge. Mention that initial installation still needs internet; offline operation comes after dependencies are installed.\n\nASK THE ROOM\nIf I rewrite a blueprint prompt, will the rehearsal answer become more creative?\n\nEXPECTED EVIDENCE\nNo. Rehearsal wording is scripted. Input changes affect calculations; live models can interpret narrative preferences.\n\nIF SOMEONE IS STUCK\nRepeat this distinction whenever someone expects a creative response. Never present the rehearsal as a verified live Gemini call.",
+    "fast": true,
+    "image": null,
+    "sub": "",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": [
+      "REHEARSAL TODAY",
+      "LIVE AI LATER"
+    ]
+  },
+  {
+    "n": 4,
+    "title": "We will learn by doing one small loop.",
+    "kind": "flow",
+    "section": "START HERE",
+    "body": [],
+    "steps": [
+      "Watch Arthi",
+      "Build together",
+      "Try one change",
+      "Show the evidence"
+    ],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nI will demonstrate one small action, then everyone repeats it. Please avoid racing through later steps: the checkpoint is how we know the room is ready.\n\nDEMONSTRATE / DO TOGETHER\nAssign driver and navigator in each pair. Driver types; navigator reads the instruction and checks the output. Ask pairs to signal green when ready, amber when blocked.\n\nASK THE ROOM\nWhat should the navigator check before we run a command?\n\nEXPECTED EVIDENCE\nCorrect folder, exact command, and the expected output.\n\nIF SOMEONE IS STUCK\nPause for one pair to show the checkpoint before continuing.",
+    "fast": true,
+    "image": null,
+    "sub": "One person types. One person checks. Swap roles halfway.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 5,
+    "title": "Use the route that fits your session.",
+    "kind": "agenda",
+    "section": "START HERE",
+    "body": [],
+    "steps": [],
+    "code": null,
+    "rows": [
+      [
+        "00–15",
+        "Understand the model",
+        "Everyday concepts and rehearsal boundaries"
+      ],
+      [
+        "15–40",
+        "Get running",
+        "Clone, install, doctor and first launch"
+      ],
+      [
+        "40–65",
+        "Build one agent",
+        "Complete the starter and test the cash tool"
+      ],
+      [
+        "65–100",
+        "Adapt the six roles",
+        "One controlled experiment per specialist"
+      ],
+      [
+        "100–110",
+        "Break",
+        "Keep the server and files open"
+      ],
+      [
+        "110–135",
+        "Connect evidence",
+        "Memory, hand-offs and shared state"
+      ],
+      [
+        "135–165",
+        "Challenge the launch",
+        "Compare, review and export"
+      ],
+      [
+        "165–180",
+        "Explain the result",
+        "Short demos and readiness decision"
+      ]
+    ],
+    "notes": "SAY\nThis deck supports a three-hour build-along. If today is only ninety minutes, use the fast-path slide list in the facilitator guide and assume Git and uv are already installed.\n\nDEMONSTRATE / DO TOGETHER\nChoose the route before teaching. Keep technical appendices for troubleshooting rather than reading every slide aloud.\n\nASK THE ROOM\nCan we agree to stop and check at each checkpoint?\n\nEXPECTED EVIDENCE\nThe room understands the cadence.\n\nIF SOMEONE IS STUCK\nIf installation consumes the first block, pair affected learners or use the prepared ZIP. Do not promise that a first-time dependency installation works offline.",
+    "fast": false,
+    "image": null,
+    "sub": "",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 6,
+    "title": "Think of agents as a kitchen team.",
+    "kind": "image",
+    "section": "UNDERSTAND",
+    "body": [
+      "The order is the goal.",
+      "Recipes are instructions.",
+      "Equipment is the toolset.",
+      "The head chef coordinates."
+    ],
+    "steps": [],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nA restaurant works because different specialists share an order and use the right equipment. One person does not have to do everything. Our business agents are software roles, not employees with judgment or accountability.\n\nDEMONSTRATE / DO TOGETHER\nUse the illustration to point out the order rail, specialists and head chef. Map Finance to checking costs, Operations to timing, and General Management to coordinating the final decision.\n\nASK THE ROOM\nWhat happens if each chef works from a different order?\n\nEXPECTED EVIDENCE\nThe outputs conflict. That is why our agents receive shared facts.\n\nIF SOMEONE IS STUCK\nKeep the analogy short. A software agent has no human intention, common sense or responsibility.",
+    "fast": false,
+    "image": "kitchen-team.png",
+    "sub": "",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026.",
+      "Original kitchen-team illustration generated with built-in image_gen, 3 September 2026. Asset: workshop/assets/kitchen-team.png."
+    ],
+    "labels": []
+  },
+  {
+    "n": 7,
+    "title": "An agent can use a tool before replying.",
+    "kind": "twoflow",
+    "section": "UNDERSTAND",
+    "body": [],
+    "steps": [
+      [
+        "Question",
+        "Answer"
+      ],
+      [
+        "Goal",
+        "Tool call",
+        "Result",
+        "Answer"
+      ]
+    ],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nA chatbot can explain a formula. An agent workflow can call a calculator-like function, read its result, and then respond. Tool use is an observable action; it is not a magical guarantee of correctness.\n\nDEMONSTRATE / DO TOGETHER\nRead each arrow aloud. Use “calculate launch cash” as the concrete example.\n\nASK THE ROOM\nWhich path gives us an arithmetic result we can inspect?\n\nEXPECTED EVIDENCE\nThe tool path. The tool and its inputs must still be checked.\n\nIF SOMEONE IS STUCK\nPause for one pair to show the checkpoint before continuing.",
+    "fast": true,
+    "image": null,
+    "sub": "A tool is a specific capability: calculate, retrieve, or inspect.",
+    "sources": [
+      "https://docs.langchain.com/oss/python/langchain/agents",
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": [
+      "A SIMPLE CHATBOT EXCHANGE",
+      "OUR AGENT WORKFLOW"
+    ]
+  },
+  {
+    "n": 8,
+    "title": "An agent needs a clear job description.",
+    "kind": "points",
+    "section": "UNDERSTAND",
+    "body": [
+      "Goal: What result should it produce?",
+      "Inputs: What facts can it use?",
+      "Tools: What actions may it take?",
+      "Rules: What must it avoid?",
+      "Output: What should a useful answer contain?"
+    ],
+    "steps": [],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nImagine onboarding a new assistant. “Help with business” is vague. “Compare launch cash against the approved budget and show the arithmetic” is testable.\n\nDEMONSTRATE / DO TOGETHER\nAsk participants to draft one sentence for a Finance assistant. Keep the output specific: cash needed, gap and human review.\n\nASK THE ROOM\nWhat is missing from “be a helpful Finance agent”?\n\nEXPECTED EVIDENCE\nA clear goal, defined inputs, permitted tools, constraints and success criteria.\n\nIF SOMEONE IS STUCK\nUse the completed agent blueprint in the app as a template; do not ask beginners to invent a system from a blank page.",
+    "fast": false,
+    "image": null,
+    "sub": "",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 9,
+    "title": "The loop is: ask, act, observe, reply.",
+    "kind": "flow",
+    "section": "UNDERSTAND",
+    "body": [],
+    "steps": [
+      "Read the goal",
+      "Choose a tool",
+      "Execute it",
+      "Read the result",
+      "Reply or repeat"
+    ],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nThe model requests an action. LangChain executes the permitted tool and returns its output. The agent can then continue or finish. The rehearsal adapter chooses the next action using fixed rules.\n\nDEMONSTRATE / DO TOGETHER\nTrace one Finance request from a user message to model_finances to the final report. Explain that the activity log is visible behavior, not hidden model reasoning.\n\nASK THE ROOM\nDoes seeing a tool call mean the answer is automatically trustworthy?\n\nEXPECTED EVIDENCE\nNo. We need valid inputs, correct tools and a reviewable final claim.\n\nIF SOMEONE IS STUCK\nPause for one pair to show the checkpoint before continuing.",
+    "fast": true,
+    "image": null,
+    "sub": "In rehearsal, tool selection follows a fixed script.",
+    "sources": [
+      "https://docs.langchain.com/oss/python/langchain/agents",
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 10,
+    "title": "LangChain is the agent’s wiring kit.",
+    "kind": "flow",
+    "section": "UNDERSTAND",
+    "body": [],
+    "steps": [
+      "Role prompt",
+      "Model adapter",
+      "Allowed tools",
+      "create_agent"
+    ],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nThink of LangChain as connectors and wiring, not as the intelligence itself. We provide the model and tools. create_agent assembles them into a runnable agent.\n\nDEMONSTRATE / DO TOGETHER\nExplain each word without diving into package internals. The model is the response engine; the adapter is the plug that lets the framework talk to it.\n\nASK THE ROOM\nWhere does our business arithmetic live?\n\nEXPECTED EVIDENCE\nIn Python tools, not inside the LangChain package or a guessed model answer.\n\nIF SOMEONE IS STUCK\nPause for one pair to show the checkpoint before continuing.",
+    "fast": false,
+    "image": null,
+    "sub": "The framework connects the parts and runs the model–tool loop.",
+    "sources": [
+      "https://docs.langchain.com/oss/python/langchain/agents",
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 11,
+    "title": "LangGraph gives the team a route map.",
+    "kind": "compare",
+    "section": "UNDERSTAND",
+    "body": [],
+    "steps": [],
+    "code": null,
+    "rows": [
+      [
+        "Build one agent’s model–tool loop",
+        "Arrange the order of multiple steps"
+      ],
+      [
+        "Example: Finance calls its cash tool",
+        "Example: Finance waits for Operations"
+      ],
+      [
+        "Analogy: a worker’s equipment",
+        "Analogy: the work schedule"
+      ]
+    ],
+    "notes": "SAY\nLangChain helps us create an individual agent. LangGraph helps us define what happens next and what information travels between steps. In this app the outer workflow runs agents in a predictable sequence.\n\nDEMONSTRATE / DO TOGETHER\nDraw an everyday approval route: analyst → manager → decision. Explain nodes as steps, edges as routes and state as shared information.\n\nASK THE ROOM\nWhy should Finance see delivery capacity before estimating sales?\n\nEXPECTED EVIDENCE\nIt should not count units Operations cannot deliver.\n\nIF SOMEONE IS STUCK\nPause for one pair to show the checkpoint before continuing.",
+    "fast": false,
+    "image": null,
+    "sub": "",
+    "sources": [
+      "https://docs.langchain.com/oss/python/langchain/agents",
+      "https://docs.langchain.com/oss/python/langgraph/overview",
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": [
+      "LANGCHAIN",
+      "LANGGRAPH"
+    ]
+  },
+  {
+    "n": 12,
+    "title": "Shared state is the team’s clipboard.",
+    "kind": "flow",
+    "section": "UNDERSTAND",
+    "body": [],
+    "steps": [
+      "Scenario facts",
+      "Specialist reports",
+      "Shared clipboard",
+      "Executive decision"
+    ],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nThe clipboard travels with this job. It starts with scenario facts and collects reports. Memory is different: it is a saved filing cabinet that survives a restart.\n\nDEMONSTRATE / DO TOGETHER\nUse one example: the current budget goes on the clipboard; a packaging-review note goes in Memory Vault.\n\nASK THE ROOM\nWill the same team ID on two laptops share a clipboard?\n\nEXPECTED EVIDENCE\nNo. Each local app has its own database. IDs label local workspaces; they do not create network synchronization.\n\nIF SOMEONE IS STUCK\nPause for one pair to show the checkpoint before continuing.",
+    "fast": false,
+    "image": null,
+    "sub": "State carries the current run. Memory keeps information for later.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 13,
+    "title": "Six specialists answer six questions.",
+    "kind": "roles",
+    "section": "UNDERSTAND",
+    "body": [],
+    "steps": [],
+    "code": null,
+    "rows": [
+      [
+        "PRISM",
+        "Analytics",
+        "What do the numbers actually say?"
+      ],
+      [
+        "PULSE",
+        "Marketing",
+        "How should we test customer demand?"
+      ],
+      [
+        "NOVA",
+        "HR",
+        "What skills and capacity do we need?"
+      ],
+      [
+        "ATLAS",
+        "Operations",
+        "Can we deliver on time?"
+      ],
+      [
+        "LEDGER",
+        "Finance",
+        "Can we fund the plan?"
+      ],
+      [
+        "JARVIS",
+        "General Management",
+        "What should the whole team do next?"
+      ]
+    ],
+    "notes": "SAY\nThese are the six specialization roles in the proposal. JARVIS also names the chat interface, but the command assistant and the General Management synthesis agent are separate agent instances.\n\nDEMONSTRATE / DO TOGETHER\nAsk each pair to pick a specialist to explain later. Everyone clones the whole app; they do not need six separate installations.\n\nASK THE ROOM\nWhich role should own the final human launch approval?\n\nEXPECTED EVIDENCE\nA person. JARVIS proposes a recommendation; it cannot approve spending or launch the company.\n\nIF SOMEONE IS STUCK\nPause for one pair to show the checkpoint before continuing.",
+    "fast": true,
+    "image": null,
+    "sub": "",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 14,
+    "title": "Our shared case is Project Monsoon.",
+    "kind": "numbers",
+    "section": "THE BUSINESS CASE",
+    "body": [],
+    "steps": [],
+    "code": null,
+    "rows": [
+      [
+        "₹24 lakh",
+        "Launch cash budget"
+      ],
+      [
+        "30,000",
+        "Units to produce"
+      ],
+      [
+        "84 days",
+        "Launch window"
+      ],
+      [
+        "₹120 / ₹65",
+        "Price / unit cost"
+      ]
+    ],
+    "notes": "SAY\nWe are launching a shelf-stable millet snack in Chennai and Bengaluru. Every number is fictional. The point is to learn how different functions reason from the same facts.\n\nDEMONSTRATE / DO TOGETHER\nOpen the scenario briefly and show the budget, units, price and unit cost. Mention that additional launch costs total ₹4.5 lakh under the default assumptions.\n\nASK THE ROOM\nWhat could go wrong if Marketing promises more than Operations can produce?\n\nEXPECTED EVIDENCE\nThe campaign, capacity plan and revenue forecast would contradict each other.\n\nIF SOMEONE IS STUCK\nPause for one pair to show the checkpoint before continuing.",
+    "fast": true,
+    "image": null,
+    "sub": "Aster Foods is fictional. All figures are teaching assumptions.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 15,
+    "title": "Before we code, check the cash by hand.",
+    "kind": "equation",
+    "section": "THE BUSINESS CASE",
+    "body": [],
+    "steps": [
+      "30,000 × ₹65",
+      "+ ₹4,50,000",
+      "= ₹24,00,000"
+    ],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nThe initial plan uses the full budget. Other launch costs combine ₹2.5 lakh fixed costs, ₹1.8 lakh marketing and ₹20,000 staffing allowance. No cash headroom is left under these simplified assumptions.\n\nDEMONSTRATE / DO TOGETHER\nAsk someone to calculate 30,000 times 65. Then add the other costs. This gives the class an independent expected result before running any code.\n\nASK THE ROOM\nDoes “fits the budget” mean “safe to launch”?\n\nEXPECTED EVIDENCE\nNo. Supply, margin, customer trust and human sign-off still matter.\n\nIF SOMEONE IS STUCK\nPause for one pair to show the checkpoint before continuing.",
+    "fast": false,
+    "image": null,
+    "sub": "Production cost + other launch costs = cash needed upfront.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 16,
+    "title": "Prepare a simple local workstation.",
+    "kind": "points",
+    "section": "SET UP",
+    "body": [
+      "Git: copy the project and track changes.",
+      "uv: install the matching Python packages.",
+      "Editor: open and change the project files.",
+      "Browser: use the local command center.",
+      "Internet: needed for the first installation."
+    ],
+    "steps": [],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nWe need a small local development setup. An editor can be VS Code or another editor you already have. Rehearsal needs no model API key, paid subscription, GPU or Docker.\n\nDEMONSTRATE / DO TOGETHER\nCheck Git and uv versions first. Ask the room to keep a terminal open and connect power. Use the existing workshop device baseline: recent laptop, around 8 GB RAM minimum for this lab.\n\nASK THE ROOM\nWhich step may still need internet even though today’s model is offline?\n\nEXPECTED EVIDENCE\nDownloading Python and packages during setup.\n\nIF SOMEONE IS STUCK\nUse institution-approved installation methods. If software installation is blocked, pair the learner with a ready machine; do not bypass IT controls.",
+    "fast": true,
+    "image": null,
+    "sub": "",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 17,
+    "title": "GitHub is the shared shelf. Clone is a copy.",
+    "kind": "flow",
+    "section": "SET UP",
+    "body": [],
+    "steps": [
+      "Arthi’s repository",
+      "Clone over HTTPS",
+      "Your project folder",
+      "Your local changes"
+    ],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nGit is the change-tracking tool. GitHub hosts a repository online. Cloning makes a local copy that you can run and edit. Cloning does not change Arthi’s copy.\n\nDEMONSTRATE / DO TOGETHER\nShow a repository’s green Code menu and the HTTPS copy option after the final repository is published. If private, confirm each participant has access before the session.\n\nASK THE ROOM\nDo your experimental edits automatically change the shared repository?\n\nEXPECTED EVIDENCE\nNo. A push or other deliberate sharing action is required.\n\nIF SOMEONE IS STUCK\nPause for one pair to show the checkpoint before continuing.",
+    "fast": false,
+    "image": null,
+    "sub": "A local edit stays on your laptop until you intentionally share it.",
+    "sources": [
+      "https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository"
+    ],
+    "labels": []
+  },
+  {
+    "n": 18,
+    "title": "macOS: install only what is missing.",
+    "kind": "code",
+    "section": "SET UP",
+    "body": [],
+    "steps": [],
+    "code": "git --version\nuv --version\n\n# If Git is missing:\nxcode-select --install\n\n# If uv is missing:\ncurl -LsSf https://astral.sh/uv/install.sh | sh",
+    "rows": [],
+    "notes": "SAY\nVersion checks tell us whether installation is needed. Do not reinstall tools that already work. The Git installer may open a macOS dialog; finish that normally.\n\nDEMONSTRATE / DO TOGETHER\nDemonstrate the two version checks. For missing Git use the Apple command-line-tools route documented by Git. For uv use the official installer or the institution’s approved package manager.\n\nASK THE ROOM\nWhat should you do if uv is installed but the terminal cannot find it?\n\nEXPECTED EVIDENCE\nOpen a fresh terminal and check again.\n\nIF SOMEONE IS STUCK\nDo not change system policy to work around managed-device restrictions. Use a prepared partner machine if necessary.",
+    "fast": false,
+    "image": null,
+    "sub": "Use Terminal. Reopen it after installation, then check versions again.",
+    "sources": [
+      "https://git-scm.com/install/mac",
+      "https://docs.astral.sh/uv/getting-started/installation/"
+    ],
+    "labels": []
+  },
+  {
+    "n": 19,
+    "title": "Windows: use PowerShell for setup.",
+    "kind": "code",
+    "section": "SET UP",
+    "body": [],
+    "steps": [],
+    "code": "git --version\nuv --version\n\n# Install missing tools:\nwinget install --id Git.Git -e --source winget\nwinget install --id astral-sh.uv -e",
+    "rows": [],
+    "notes": "SAY\nPowerShell is the Windows command window used in this deck. The commands begin with the tool name; do not copy a prompt symbol such as a dollar sign from a website.\n\nDEMONSTRATE / DO TOGETHER\nCheck versions, then install only missing tools. If winget is unavailable, use the official Git and uv installation pages linked in these notes and ask IT for the approved route.\n\nASK THE ROOM\nWhy do we open a fresh terminal after installation?\n\nEXPECTED EVIDENCE\nThe new terminal picks up the updated command search path.\n\nIF SOMEONE IS STUCK\nDo not paste macOS shell commands into PowerShell. Use the Windows-specific instructions.",
+    "fast": false,
+    "image": null,
+    "sub": "Close and reopen PowerShell after installation.",
+    "sources": [
+      "https://git-scm.com/install/windows",
+      "https://docs.astral.sh/uv/getting-started/installation/"
+    ],
+    "labels": []
+  },
+  {
+    "n": 20,
+    "title": "Clone the link Arthi gives you.",
+    "kind": "clone",
+    "section": "SET UP",
+    "body": [],
+    "steps": [
+      "Type git clone",
+      "Paste the HTTPS URL",
+      "Add agentforge-jarvis"
+    ],
+    "code": "cd agentforge-jarvis\nls",
+    "rows": [],
+    "notes": "SAY\nWe have not assumed a public repository URL. I will share the tested HTTPS URL. Build one command containing git clone, that URL and the destination folder name agentforge-jarvis.\n\nDEMONSTRATE / DO TOGETHER\nType git clone followed by a space, paste the real URL, add a space and agentforge-jarvis, then press Enter. Next run cd agentforge-jarvis and list the files. PowerShell also supports ls.\n\nASK THE ROOM\nWhat file confirms we are in the project root?\n\nEXPECTED EVIDENCE\npyproject.toml. uv.lock, README.md and src should also be visible.\n\nIF SOMEONE IS STUCK\nIf the directory already exists, use it only if it is the intended clone; otherwise choose a fresh folder. A 404 for a private repository may be an access problem.",
+    "fast": true,
+    "image": null,
+    "sub": "The final GitHub URL is supplied after Arthi publishes the repository.",
+    "sources": [
+      "https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository",
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 21,
+    "title": "Know the few files you will touch.",
+    "kind": "filemap",
+    "section": "SET UP",
+    "body": [],
+    "steps": [],
+    "code": null,
+    "rows": [
+      [
+        "pyproject.toml",
+        "The project’s package list"
+      ],
+      [
+        "uv.lock",
+        "The exact dependency versions"
+      ],
+      [
+        "workshop/",
+        "The first-agent lab and handouts"
+      ],
+      [
+        "examples/",
+        "Fictional scenario and sample outputs"
+      ],
+      [
+        "src/agentforge_jarvis/",
+        "The real application code"
+      ],
+      [
+        ".agentforge/",
+        "Local saved runs and memory"
+      ]
+    ],
+    "notes": "SAY\nA repository can look intimidating. We will use only a few files. The workshop folder is our small coding lab; the main source folder contains the complete app.\n\nDEMONSTRATE / DO TOGETHER\nOpen the project in the editor. Show the folder tree without reading every file. Explain that .agentforge is created locally when the application stores data and is ignored by Git.\n\nASK THE ROOM\nWhich file should we avoid uploading if it contains a key?\n\nEXPECTED EVIDENCE\nThe local .env file. It is ignored by Git; never put keys into notes or screenshots either.\n\nIF SOMEONE IS STUCK\nPause for one pair to show the checkpoint before continuing.",
+    "fast": false,
+    "image": null,
+    "sub": "",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 22,
+    "title": "uv prepares a separate toolbox for this app.",
+    "kind": "flow",
+    "section": "SET UP",
+    "body": [],
+    "steps": [
+      "pyproject.toml",
+      "uv.lock",
+      "uv sync --frozen",
+      ".venv"
+    ],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nThink of .venv as a toolbox reserved for this project. uv reads what the project needs and installs matching versions. The lockfile keeps classmates on the same tested dependency set.\n\nDEMONSTRATE / DO TOGETHER\nExplain --frozen as “use the existing lockfile; do not resolve a different set of versions.” Do not describe it as a guarantee that network access is unnecessary.\n\nASK THE ROOM\nWhy not install random package versions by hand during the session?\n\nEXPECTED EVIDENCE\nDifferent versions create different behavior and make group debugging harder.\n\nIF SOMEONE IS STUCK\nPause for one pair to show the checkpoint before continuing.",
+    "fast": false,
+    "image": null,
+    "sub": "The project’s packages are kept in its own local environment.",
+    "sources": [
+      "https://docs.astral.sh/uv/getting-started/installation/",
+      "https://docs.astral.sh/uv/concepts/projects/sync/",
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 23,
+    "title": "Install the locked dependencies once.",
+    "kind": "code",
+    "section": "SET UP",
+    "body": [],
+    "steps": [],
+    "code": "uv sync --frozen\nuv run pytest -q",
+    "rows": [],
+    "notes": "SAY\nRun these commands from the folder containing pyproject.toml. The first may download Python and packages. The second runs the app’s existing automated checks.\n\nDEMONSTRATE / DO TOGETHER\nWait for sync to finish. Then run pytest. The prepared app currently reports 19 tests; if we later add a test, the count may grow. Success means tests pass, not that the count must stay fixed forever.\n\nASK THE ROOM\nWhat does a green test suite prove, and what does it not prove?\n\nEXPECTED EVIDENCE\nIt checks the defined rehearsal behavior. It does not prove live Gemini access, microphone support or production readiness.\n\nIF SOMEONE IS STUCK\nA “no pyproject.toml found” error means the terminal is in the wrong folder. Stop and use cd; do not reinstall Python.",
+    "fast": true,
+    "image": null,
+    "sub": "Checkpoint: installation completes and the existing 19 tests pass.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 24,
+    "title": "Force rehearsal mode before the health check.",
+    "kind": "dualcode",
+    "section": "SET UP",
+    "body": [],
+    "steps": [],
+    "code": null,
+    "rows": [
+      [
+        "export AGENTFORGE_PROVIDER=rehearsal\nuv run agentforge-jarvis doctor",
+        "$env:AGENTFORGE_PROVIDER=\"rehearsal\"\nuv run agentforge-jarvis doctor"
+      ]
+    ],
+    "notes": "SAY\nThe app defaults to rehearsal, but an old environment setting could select a different provider. We explicitly choose rehearsal in the terminal that will start the server.\n\nDEMONSTRATE / DO TOGETHER\nUse the command for the operating system, then run doctor. Explain that live_verified remains false because a configuration check is not a live provider call.\n\nASK THE ROOM\nShould we enter a Gemini key to complete today’s rehearsal?\n\nEXPECTED EVIDENCE\nNo. We do not need one.\n\nIF SOMEONE IS STUCK\nIf doctor reports Gemini, verify the environment variable in the same terminal. Editing .env does not override a provider variable already set in the shell.",
+    "fast": true,
+    "image": null,
+    "sub": "Look for provider: rehearsal and configured: true.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": [
+      "macOS / Linux",
+      "Windows PowerShell"
+    ]
+  },
+  {
+    "n": 25,
+    "title": "Launch the app and keep this terminal open.",
+    "kind": "code",
+    "section": "SET UP",
+    "body": [],
+    "steps": [],
+    "code": "uv run agentforge-jarvis web\n\nhttp://127.0.0.1:8787",
+    "rows": [],
+    "notes": "SAY\nThe terminal is now running the local web server. The URL belongs in the browser address bar, not in the terminal. Keep the server running while you use the app.\n\nDEMONSTRATE / DO TOGETHER\nStart the server, wait for the Uvicorn startup line, then open the URL. Explain localhost as “this computer” and port 8787 as its application door number.\n\nASK THE ROOM\nCan another laptop use your 127.0.0.1 address to reach this app?\n\nEXPECTED EVIDENCE\nNo. On their laptop it refers to their own computer.\n\nIF SOMEONE IS STUCK\nIf the port is busy, start with --port 8788 and open that port in the browser. Do not assume a browser reload can restart a stopped server.",
+    "fast": true,
+    "image": null,
+    "sub": "The command runs in Terminal. The URL opens in your browser.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 26,
+    "title": "Checkpoint 1: everyone can see six agents.",
+    "kind": "points",
+    "section": "CHECKPOINT 1",
+    "body": [
+      "The page shows REHEARSAL MODE.",
+      "All six specialist names are visible.",
+      "Project Monsoon is the active scenario.",
+      "The browser can reach your local server."
+    ],
+    "steps": [],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nBefore we build further, we need the whole room at the same starting line. “It installed” is not enough; the app must open.\n\nDEMONSTRATE / DO TOGETHER\nAsk pairs to show their page or signal green. Resolve amber pairs now. Set a simple local team ID such as liba-team-01; choose a different ID if useful on a shared machine.\n\nASK THE ROOM\nDoes using the same team ID connect different laptops?\n\nEXPECTED EVIDENCE\nNo. This is local workspace separation, not shared networking.\n\nIF SOMEONE IS STUCK\nUse the setup-rescue appendix. If a pair cannot install today, let them drive the facilitator’s demo or work with a ready partner.",
+    "fast": true,
+    "image": null,
+    "sub": "",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 27,
+    "title": "Run the baseline before changing anything.",
+    "kind": "flow",
+    "section": "FIRST RUN",
+    "body": [],
+    "steps": [
+      "Baseline launch",
+      "Run launch swarm",
+      "Watch tool events",
+      "Inspect the decision"
+    ],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nA baseline gives us something fair to compare against. If we change three settings first, we cannot tell what caused a difference.\n\nDEMONSTRATE / DO TOGETHER\nClick Baseline launch and Run launch swarm. Rehearsal is fast; use the saved reports and event list to inspect afterward. Show 6/6 complete and the final recommendation.\n\nASK THE ROOM\nWhy does the baseline say conditional rather than approved?\n\nEXPECTED EVIDENCE\nIt is decision support. Supply, people, customer claims and human authorization still need review.\n\nIF SOMEONE IS STUCK\nPause for one pair to show the checkpoint before continuing.",
+    "fast": true,
+    "image": null,
+    "sub": "Expected baseline: CONDITIONAL GO, subject to human review.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 28,
+    "title": "Read the activity log like a delivery receipt.",
+    "kind": "flow",
+    "section": "FIRST RUN",
+    "body": [],
+    "steps": [
+      "Agent started",
+      "Tool called",
+      "Tool result",
+      "Agent completed"
+    ],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nThe trace tells us which functions executed. It does not show private thoughts or prove every statement is true. Started and completed events are separate; do not confuse event count with tool-completion count.\n\nDEMONSTRATE / DO TOGETHER\nOpen the telemetry and point to read_brief, the domain tool and search_memory for one specialist. The full run has 18 tool completions but additional start/end events.\n\nASK THE ROOM\nWhere do we look for the actual arithmetic?\n\nEXPECTED EVIDENCE\nThe agent’s report under source evidence and calculated metrics.\n\nIF SOMEONE IS STUCK\nPause for one pair to show the checkpoint before continuing.",
+    "fast": false,
+    "image": null,
+    "sub": "Six agents × three tool completions = 18 completed tool calls.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 29,
+    "title": "A useful report separates facts from judgment.",
+    "kind": "points",
+    "section": "FIRST RUN",
+    "body": [
+      "Metrics: numbers calculated by tools.",
+      "Evidence: where inputs and hand-offs came from.",
+      "Assumptions: what the model leaves out.",
+      "Risks: reasons to pause or ask questions.",
+      "Actions: an owner and a review gate."
+    ],
+    "steps": [],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nA confident paragraph is hard to audit. A report with evidence and explicit assumptions is easier to question. The narrative is displayed separately from calculated facts.\n\nDEMONSTRATE / DO TOGETHER\nOpen LEDGER’s report. Show cash required, funding gap, source arithmetic, assumptions and the named Finance action.\n\nASK THE ROOM\nWhich assumption would matter in a real launch?\n\nEXPECTED EVIDENCE\nExamples include delayed customer payments, returns, taxes or supplier downtime. Those are not modelled in the default exercise.\n\nIF SOMEONE IS STUCK\nPause for one pair to show the checkpoint before continuing.",
+    "fast": false,
+    "image": null,
+    "sub": "",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 30,
+    "title": "Now build one small agent yourself.",
+    "kind": "section",
+    "section": "BUILD ALONG",
+    "body": [],
+    "steps": [],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nThe full application is already assembled from working templates. Now we will create a smaller agent so you can recognize its parts without reading the whole application.\n\nDEMONSTRATE / DO TOGETHER\nKeep the app open. In the editor, open workshop/first_agent_starter.py. Use a second terminal in the project root for the lab.\n\nASK THE ROOM\nWhat are the three pieces we expect to see?\n\nEXPECTED EVIDENCE\nA model, a tool, and create_agent connecting them.\n\nIF SOMEONE IS STUCK\nPause for one pair to show the checkpoint before continuing.",
+    "fast": true,
+    "image": null,
+    "sub": "A finance tool + a scripted model + LangChain.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 31,
+    "title": "Open the starter and find the two blanks.",
+    "kind": "code",
+    "section": "BUILD ALONG",
+    "body": [],
+    "steps": [],
+    "code": "workshop/first_agent_starter.py\n\nBUDGET = 2_400_000\nUNITS = 30_000\nUNIT_COST = 65\nOTHER_LAUNCH_COSTS = 450_000",
+    "rows": [],
+    "notes": "SAY\nThe starter has two incomplete calculation lines. The rest of the framework code is provided. You do not need to type every import or understand the model adapter internals today.\n\nDEMONSTRATE / DO TOGETHER\nOpen the file in an editor. Locate cash_needed = None and funding_gap = None. Explain None as a deliberately empty value. Do not run this incomplete starter as a successful agent.\n\nASK THE ROOM\nWhich inputs should produce the same ₹24 lakh baseline we checked earlier?\n\nEXPECTED EVIDENCE\n30,000 units at ₹65 plus ₹4.5 lakh other costs.\n\nIF SOMEONE IS STUCK\nThe completed reference is workshop/first_agent.py. Let learners compare it after making their own attempt.",
+    "fast": false,
+    "image": null,
+    "sub": "Underscores make large Python numbers easier to read.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 32,
+    "title": "Complete the calculator in two lines.",
+    "kind": "code",
+    "section": "BUILD ALONG",
+    "body": [],
+    "steps": [],
+    "code": "cash_needed = UNITS * UNIT_COST + OTHER_LAUNCH_COSTS\n\nfunding_gap = max(0, cash_needed - BUDGET)",
+    "rows": [],
+    "notes": "SAY\nThe first line calculates all the upfront cash. The second reports a gap only if the requirement exceeds the budget. These are ordinary Python calculations.\n\nDEMONSTRATE / DO TOGETHER\nReplace only the two None values in the starter and save. Keep the indentation already present. Explain multiplication and subtraction using the earlier handwritten calculation.\n\nASK THE ROOM\nIf cash needed is ₹24 lakh and budget is ₹18 lakh, what is funding_gap?\n\nEXPECTED EVIDENCE\n₹6 lakh, stored as 600000.\n\nIF SOMEONE IS STUCK\nCheck spelling, uppercase variable names and indentation. Do not paste smart quotation marks from a messaging app.",
+    "fast": true,
+    "image": null,
+    "sub": "max(0, …) means a surplus is not reported as a negative funding gap.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 33,
+    "title": "@tool gives the calculator a clear label.",
+    "kind": "code",
+    "section": "BUILD ALONG",
+    "body": [],
+    "steps": [],
+    "code": "@tool\ndef estimate_launch_cash() -> dict:\n    \"\"\"Calculate launch cash and compare the budget.\"\"\"\n    cash_needed = UNITS * UNIT_COST + OTHER_LAUNCH_COSTS",
+    "rows": [],
+    "notes": "SAY\nThe decorator is like attaching a label and instruction card to a machine. LangChain can discover the tool’s name and description. The docstring explains what the tool does.\n\nDEMONSTRATE / DO TOGETHER\nPoint to @tool, the function name, the description and the arithmetic. Explain dict as a small labelled result, like a form with named fields.\n\nASK THE ROOM\nDoes @tool automatically verify our formula?\n\nEXPECTED EVIDENCE\nNo. It exposes the function as a tool. We still write and test the function correctly.\n\nIF SOMEONE IS STUCK\nPause for one pair to show the checkpoint before continuing.",
+    "fast": false,
+    "image": null,
+    "sub": "A named function becomes a capability the agent may call.",
+    "sources": [
+      "https://docs.langchain.com/oss/python/langchain/agents",
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026.",
+      "Local teaching source: workshop/first_agent_starter.py and workshop/first_agent.py."
+    ],
+    "labels": []
+  },
+  {
+    "n": 34,
+    "title": "create_agent connects the working parts.",
+    "kind": "code",
+    "section": "BUILD ALONG",
+    "body": [],
+    "steps": [],
+    "code": "agent = create_agent(\n    model=WorkshopModel(),\n    tools=[estimate_launch_cash],\n    system_prompt=\"Use the cash tool. A human decides.\",\n)",
+    "rows": [],
+    "notes": "SAY\nRead the code as a sentence: create an agent using this rehearsal model, allowing this cash tool, and giving it a role instruction. Square brackets mean a list of allowed tools.\n\nDEMONSTRATE / DO TOGETHER\nPoint out that WorkshopModel is a supplied helper in workshop/rehearsal_model.py. Its fixed action is to call estimate_launch_cash. This simple lab is separate from the app’s richer RehearsalModel.\n\nASK THE ROOM\nWhat happens if we remove the tool from the allowed tool list?\n\nEXPECTED EVIDENCE\nThe model cannot successfully execute that named capability through this agent.\n\nIF SOMEONE IS STUCK\nDo not spend the session reading the model class. Keep attention on the model/tool/prompt interface.",
+    "fast": true,
+    "image": null,
+    "sub": "WorkshopModel is deliberately scripted. No AI service is contacted.",
+    "sources": [
+      "https://docs.langchain.com/oss/python/langchain/agents",
+      "Local teaching source: workshop/first_agent.py; workshop/rehearsal_model.py."
+    ],
+    "labels": []
+  },
+  {
+    "n": 35,
+    "title": "invoke starts one conversation turn.",
+    "kind": "code",
+    "section": "BUILD ALONG",
+    "body": [],
+    "steps": [],
+    "code": "result = agent.invoke({\n    \"messages\": [{\n        \"role\": \"user\",\n        \"content\": \"Check the launch budget.\"\n    }]\n})\nprint(result[\"messages\"][-1].content)",
+    "rows": [],
+    "notes": "SAY\nInvoke simply means “run this agent with these inputs.” We send one user message and print the final response after the tool call finishes.\n\nDEMONSTRATE / DO TOGETHER\nRead the braces as a labelled input object. Point out role and content. Avoid introducing every Python collection concept at once.\n\nASK THE ROOM\nWhich result do we print: the first instruction or the final answer?\n\nEXPECTED EVIDENCE\nThe final message, selected with -1.\n\nIF SOMEONE IS STUCK\nThe starter already contains this code. Ask learners to inspect it; do not require manual retyping.",
+    "fast": false,
+    "image": null,
+    "sub": "messages is the conversation. [-1] selects its final message.",
+    "sources": [
+      "https://docs.langchain.com/oss/python/langchain/agents",
+      "Local teaching source: workshop/first_agent.py."
+    ],
+    "labels": []
+  },
+  {
+    "n": 36,
+    "title": "Run your first agent and check the result.",
+    "kind": "code",
+    "section": "CHECKPOINT 2",
+    "body": [],
+    "steps": [],
+    "code": "uv run python workshop/first_agent_starter.py\n\n# Expected result after completing the blanks:\n\"cash_needed_inr\": 2400000\n\"funding_gap_inr\": 0\n\"recommendation\": \"REVIEW WITH A HUMAN\"",
+    "rows": [],
+    "notes": "SAY\nA working result should agree with our manual calculation. This proves that your tool ran through LangChain’s agent loop. It does not prove open-ended reasoning.\n\nDEMONSTRATE / DO TOGETHER\nRun the completed starter in the second terminal. Ask each pair to show the three output fields. The reference file can be run with uv run python workshop/first_agent.py if needed.\n\nASK THE ROOM\nWhy is the recommendation still a human review even with zero funding gap?\n\nEXPECTED EVIDENCE\nThe tool only checked cash; it cannot authorize a business decision.\n\nIF SOMEONE IS STUCK\nIf the response mentions an unfinished build step, one None remains. If import fails, verify that uv sync completed and the command runs from the project root.",
+    "fast": true,
+    "image": null,
+    "sub": "",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 37,
+    "title": "Change one number. Predict before you run.",
+    "kind": "equation",
+    "section": "BUILD ALONG",
+    "body": [],
+    "steps": [
+      "Budget ₹18 lakh",
+      "Cash = ₹24 lakh",
+      "Gap = ₹6 lakh"
+    ],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nThis is the scientific habit we want: make a prediction, change one input, run the system, and compare actual evidence.\n\nDEMONSTRATE / DO TOGETHER\nHave learners change BUDGET from 2_400_000 to 1_800_000 in their starter. Ask them to say the expected gap before executing. Then restore the starter budget or keep a named copy of the experiment.\n\nASK THE ROOM\nDid the model invent the ₹6 lakh gap?\n\nEXPECTED EVIDENCE\nNo. Python calculated it. The rehearsal model returned the tool’s result.\n\nIF SOMEONE IS STUCK\nRemember that editing this small lab does not change the web app’s scenario. The next activity modifies the application separately.",
+    "fast": true,
+    "image": null,
+    "sub": "Set BUDGET = 1_800_000 in the starter, save, then rerun. Expected: HOLD.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 38,
+    "title": "The tiny lab and the full app are separate.",
+    "kind": "compare",
+    "section": "BUILD ALONG",
+    "body": [],
+    "steps": [],
+    "code": null,
+    "rows": [
+      [
+        "workshop/first_agent_starter.py",
+        "src/agentforge_jarvis/"
+      ],
+      [
+        "One cash tool",
+        "Six domain tools and shared reports"
+      ],
+      [
+        "Edit Python constants",
+        "Edit the shared scenario in the UI"
+      ],
+      [
+        "Run a terminal command",
+        "Run specialists or the complete swarm"
+      ]
+    ],
+    "notes": "SAY\nWe used a miniature to understand the pieces. The full app extends the same pattern with schemas, memory, graph orchestration, persistence and a browser interface.\n\nDEMONSTRATE / DO TOGETHER\nPoint to the two folders. Make sure nobody expects their starter’s BUDGET edit to change the command center automatically.\n\nASK THE ROOM\nWhere do we change the full app’s budget?\n\nEXPECTED EVIDENCE\nIn Edit brief, or by selecting the budget-cut challenge.\n\nIF SOMEONE IS STUCK\nIf the app seems unchanged after a starter edit, that is expected. These are separate runnable examples.",
+    "fast": false,
+    "image": null,
+    "sub": "",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": [
+      "FIRST-AGENT LAB",
+      "FULL COMMAND CENTER"
+    ]
+  },
+  {
+    "n": 39,
+    "title": "Build the agent blueprint before tuning it.",
+    "kind": "flow",
+    "section": "ADAPT THE SPECIALISTS",
+    "body": [],
+    "steps": [
+      "Select a specialist",
+      "Agent blueprint",
+      "Review its contract",
+      "Save instructions"
+    ],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nA blueprint is the agent’s contract: goal, inputs, tools, dependencies and constraints. The app lets each local team save extra instructions. In rehearsal those instructions do not alter the scripted wording or arithmetic.\n\nDEMONSTRATE / DO TOGETHER\nOpen PRISM’s blueprint, read the goal and dependencies, and save a simple instruction such as “Explain the biggest limitation in one sentence.” Explain that its narrative effect needs a live model later.\n\nASK THE ROOM\nHow can we change behavior today in a measurable way?\n\nEXPECTED EVIDENCE\nChange scenario inputs, or edit and test an underlying Python tool.\n\nIF SOMEONE IS STUCK\nPause for one pair to show the checkpoint before continuing.",
+    "fast": false,
+    "image": null,
+    "sub": "In rehearsal, instructions are saved; calculation changes come from inputs or tools.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 40,
+    "title": "Use a fresh baseline for every experiment.",
+    "kind": "flow",
+    "section": "ADAPT THE SPECIALISTS",
+    "body": [],
+    "steps": [
+      "Select Baseline",
+      "Edit brief",
+      "Change one field",
+      "Apply scenario",
+      "Run & inspect"
+    ],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nScenario changes and challenge chips combine. To understand one effect, choose Baseline, change only the intended field, and restore the default JSON afterward.\n\nDEMONSTRATE / DO TOGETHER\nOpen Edit brief. Download the scenario template or use examples/project-monsoon.json. Show that Apply validates the structure before accepting it. Click a specialist, open its blueprint and use Run specialist + dependencies.\n\nASK THE ROOM\nWhy might a second experiment produce unexpected results?\n\nEXPECTED EVIDENCE\nA previous edit or challenge may still be active.\n\nIF SOMEONE IS STUCK\nDo not upload real candidate or customer data. Use the fictional scenario file.",
+    "fast": true,
+    "image": null,
+    "sub": "Restore examples/project-monsoon.json between experiments.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 41,
+    "title": "PRISM turns counts into a useful signal.",
+    "kind": "domain",
+    "section": "ADAPT THE SPECIALISTS",
+    "body": [
+      "Change signals[0].positive: 92 → 60.",
+      "Run PRISM with the baseline scenario.",
+      "Expect overall positive rate: 72.5% → 63.6%."
+    ],
+    "steps": [
+      "Survey counts",
+      "Positive rate",
+      "Trend + limits"
+    ],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nPRISM adds positive responses and divides by total responses. It also compares supplied prior rates and reports a descriptive uncertainty interval. We do not need interval mathematics to understand that sample evidence has limits.\n\nDEMONSTRATE / DO TOGETHER\nRestore the default JSON, choose Baseline, change the first positive count to 60, and run PRISM. Check 229 positives out of 360 responses.\n\nASK THE ROOM\nCan we say 63.6% of the whole city will buy?\n\nEXPECTED EVIDENCE\nNo. These are fictional survey responses from a convenience sample, not a representative sales forecast.\n\nIF SOMEONE IS STUCK\nThe value must not exceed the response count. Validation rejects impossible counts.",
+    "fast": false,
+    "image": null,
+    "sub": "Responses are not purchases. A sample is not the whole market.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": [
+      "PRISM / ANALYTICS",
+      "READ → CALCULATE → EXPLAIN"
+    ]
+  },
+  {
+    "n": 42,
+    "title": "PULSE turns signals into a testable campaign.",
+    "kind": "domain",
+    "section": "ADAPT THE SPECIALISTS",
+    "body": [
+      "Restore defaults. Set marketing_budget: 180000 → 90000.",
+      "Run PULSE and inspect the channel worksheet.",
+      "Expect allocated budgets to total ₹90,000."
+    ],
+    "steps": [
+      "PRISM report",
+      "Channel budgets",
+      "Reviewed draft"
+    ],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nPULSE uses the supplied channel signals to allocate an experimental budget and prepare draft messaging. It does not prove which channel causes sales.\n\nDEMONSTRATE / DO TOGETHER\nInspect the channel rows and add the allocated amounts. Point to the draft label and customer-claim review gate. Restore defaults after the exercise.\n\nASK THE ROOM\nWhat should we measure before scaling the campaign?\n\nEXPECTED EVIDENCE\nActual conversion with denominators, customer feedback and credible cost information.\n\nIF SOMEONE IS STUCK\nDo not treat a survey’s positive count as observed revenue. The tool explicitly labels this as a heuristic.",
+    "fast": false,
+    "image": null,
+    "sub": "The allocation is a teaching rule, not a proven ROI forecast.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": [
+      "PULSE / MARKETING",
+      "EVIDENCE → ALLOCATION → PILOT"
+    ]
+  },
+  {
+    "n": 43,
+    "title": "NOVA shows capacity and skills for review.",
+    "kind": "domain",
+    "section": "ADAPT THE SPECIALISTS",
+    "body": [
+      "Restore defaults. Set required_fte: 10 → 12.",
+      "Inspect anonymous candidate skill coverage.",
+      "Expect staffing allowance: ₹40,000."
+    ],
+    "steps": [
+      "8 available FTE",
+      "12 required FTE",
+      "4 FTE gap"
+    ],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nFTE means full-time-equivalent capacity: two half-time contributions can count as one FTE. NOVA also shows a worksheet using job skills and work samples. Excluding demographic fields does not establish fairness.\n\nDEMONSTRATE / DO TOGETHER\nChange required_fte to 12. Show the four-FTE gap and the simple one-time allowance of ₹10,000 per gap FTE. It is not a salary estimate. Read the human-review label for every candidate.\n\nASK THE ROOM\nCan we automatically reject the lowest worksheet score?\n\nEXPECTED EVIDENCE\nNo. The workflow requires contextual human review, calibration and accessibility checks.\n\nIF SOMEONE IS STUCK\nDo not add age, gender or other protected attributes. The scenario schema rejects unrecognized candidate fields.",
+    "fast": false,
+    "image": null,
+    "sub": "Scores support a review. They do not select or reject candidates.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": [
+      "NOVA / HUMAN RESOURCES",
+      "CAPACITY → SKILLS → HUMAN REVIEW"
+    ]
+  },
+  {
+    "n": 44,
+    "title": "ATLAS checks whether the promise fits time.",
+    "kind": "domain",
+    "section": "ADAPT THE SPECIALISTS",
+    "body": [
+      "Restore defaults. Set production_per_day: 600 → 400.",
+      "Run ATLAS and inspect the launch buffer.",
+      "Expect 4,800 units short by day 84."
+    ],
+    "steps": [
+      "21 supply days",
+      "75 production days",
+      "96 days total"
+    ],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nAt 400 units per day, producing 30,000 units takes 75 days. With 21 supplier days, completion takes 96 days. Only 63 production days fit inside the 84-day launch window, giving 25,200 units.\n\nDEMONSTRATE / DO TOGETHER\nAsk learners to calculate 84 minus 21, then multiply by 400. Show the 4,800-unit difference and the fallback action.\n\nASK THE ROOM\nShould Marketing still promise all 30,000 units by day 84?\n\nEXPECTED EVIDENCE\nNo. Adjust scope, time or credible capacity before making the promise.\n\nIF SOMEONE IS STUCK\nWe assume constant capacity and sequential supply/production phases. Real delivery plans need more detail.",
+    "fast": false,
+    "image": null,
+    "sub": "A slower factory changes the delivery promise.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": [
+      "ATLAS / OPERATIONS",
+      "LEAD TIME → PRODUCTION → DEADLINE"
+    ]
+  },
+  {
+    "n": 45,
+    "title": "LEDGER checks more than cash availability.",
+    "kind": "domain",
+    "section": "ADAPT THE SPECIALISTS",
+    "body": [
+      "Restore defaults. Set price: 120 → 90.",
+      "Run LEDGER and inspect the margin gate.",
+      "Cash still fits; margin falls below the 38% target."
+    ],
+    "steps": [
+      "Price ₹90",
+      "Cost ₹65",
+      "Margin 27.8%"
+    ],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nGross margin is the share of selling price left after unit production cost. With price 90 and cost 65, the difference is 25; 25 divided by 90 is about 27.8%. The target is 38%.\n\nDEMONSTRATE / DO TOGETHER\nShow cash and margin side by side. The price edit does not change upfront production cost, but it weakens unit economics.\n\nASK THE ROOM\nWhy can LEDGER return HOLD with no funding gap?\n\nEXPECTED EVIDENCE\nBecause a different financial gate, the margin target, failed.\n\nIF SOMEONE IS STUCK\nThis is a fictional business exercise, not investment advice or a complete accounting model.",
+    "fast": false,
+    "image": null,
+    "sub": "Zero funding gap can still produce a HOLD recommendation.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": [
+      "LEDGER / FINANCE",
+      "CASH → MARGIN → SCENARIOS"
+    ]
+  },
+  {
+    "n": 46,
+    "title": "JARVIS carries blockers into the final decision.",
+    "kind": "flow",
+    "section": "ADAPT THE SPECIALISTS",
+    "body": [],
+    "steps": [
+      "Read five reports",
+      "Find conflicting gates",
+      "Assign owners",
+      "Recommend next step"
+    ],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nGeneral Management does not average away a serious blocker. It identifies the conflict and names what must be resolved. The current tool cannot override a failed specialist gate with an optimistic paragraph.\n\nDEMONSTRATE / DO TOGETHER\nUse one held scenario from the previous exercises and run the full swarm. Show which specialist caused the executive hold and who owns the next action.\n\nASK THE ROOM\nIs JARVIS the chief executive who can approve launch?\n\nEXPECTED EVIDENCE\nNo. It is a synthesis agent. A human remains accountable.\n\nIF SOMEONE IS STUCK\nPause for one pair to show the checkpoint before continuing.",
+    "fast": false,
+    "image": null,
+    "sub": "Any unresolved specialist HOLD keeps the executive package on HOLD.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 47,
+    "title": "Checkpoint 3: explain your specialist’s change.",
+    "kind": "points",
+    "section": "CHECKPOINT 3",
+    "body": [
+      "Show the single input you changed.",
+      "Name the tool that used it.",
+      "Compare one before-and-after metric.",
+      "State one assumption or limitation.",
+      "Restore the baseline when you finish."
+    ],
+    "steps": [],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nEach pair will now explain one specialist in plain English. You do not need to describe every class or library. Show one input, one calculation and one consequence.\n\nDEMONSTRATE / DO TOGETHER\nGive pairs two minutes to prepare and invite several brief reports. Ensure all six roles are covered across the room; rotate which pair speaks.\n\nASK THE ROOM\nCan your partner explain the result without reading the code?\n\nEXPECTED EVIDENCE\nThe explanation names a concrete change, evidence and business implication.\n\nIF SOMEONE IS STUCK\nIf a pair changed several values, restore the example JSON and rerun with only one edit.",
+    "fast": true,
+    "image": null,
+    "sub": "",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 48,
+    "title": "Memory is a filing cabinet, not a mind.",
+    "kind": "flow",
+    "section": "MEMORY & HAND-OFFS",
+    "body": [],
+    "steps": [
+      "Save a source note",
+      "Search for matching words",
+      "Return an excerpt",
+      "Cite the source"
+    ],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nThe vault stores text so agents can retrieve it later. Retrieval is a way to supply evidence, not proof that the source is true. Our implementation uses keyword overlap and bounded excerpts.\n\nDEMONSTRATE / DO TOGETHER\nExplain RAG in simple terms: find relevant material, then give it to the answering system. Avoid claiming this app uses embeddings or semantic vector search.\n\nASK THE ROOM\nCan a saved note be wrong?\n\nEXPECTED EVIDENCE\nYes. We still need to inspect its origin and treat it as evidence, not authority.\n\nIF SOMEONE IS STUCK\nPause for one pair to show the checkpoint before continuing.",
+    "fast": false,
+    "image": null,
+    "sub": "This app uses keyword retrieval. It does not use a vector database.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 49,
+    "title": "Give Jarvis one note it can cite.",
+    "kind": "code",
+    "section": "MEMORY & HAND-OFFS",
+    "body": [],
+    "steps": [],
+    "code": "Title: Packaging review\n\nFictional workshop note:\nThe packaging review is owned by Mira.\nAllergen copy needs review before launch.\n\nAsk: What do the memory notes say about\nthe packaging review owner?",
+    "rows": [],
+    "notes": "SAY\nWe will ask a question whose answer is in our own evidence. The owner is fictional and is deliberately included in the note.\n\nDEMONSTRATE / DO TOGETHER\nOpen Memory Vault, enter the title and text, and save. Then ask the exact question in the JARVIS command channel. It includes “memory notes” so rehearsal’s simple routing chooses search_memory.\n\nASK THE ROOM\nWhat source should appear with the answer?\n\nEXPECTED EVIDENCE\nPackaging review, with an excerpt naming Mira.\n\nIF SOMEONE IS STUCK\nAn unrelated prompt may route differently in rehearsal. Use a memory keyword and the same topic words. Never describe this as unrestricted natural-language understanding.",
+    "fast": true,
+    "image": null,
+    "sub": "",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 50,
+    "title": "Three kinds of information stay separate.",
+    "kind": "compare3",
+    "section": "MEMORY & HAND-OFFS",
+    "body": [],
+    "steps": [],
+    "code": null,
+    "rows": [
+      [
+        "Current run state",
+        "Today’s shared clipboard",
+        "Scenario + reports passed through the graph"
+      ],
+      [
+        "Memory Vault",
+        "The saved filing cabinet",
+        "Source notes retrieved by matching words"
+      ],
+      [
+        "Conversation history",
+        "The recent discussion",
+        "Saved separately for each team and agent"
+      ]
+    ],
+    "notes": "SAY\nThese stores have different jobs. Current state coordinates this run; notes provide source evidence; conversation history carries recent discussion. A label does not create an authenticated user account.\n\nDEMONSTRATE / DO TOGETHER\nReload the page to show saved notes and runs survive. Explain that opening an archived run restores its saved scenario snapshot; a new run uses the current selected inputs.\n\nASK THE ROOM\nWould deleting a source note erase all earlier report citations?\n\nEXPECTED EVIDENCE\nNo. Earlier reports and conversations can retain snapshots.\n\nIF SOMEONE IS STUCK\nKeep only fictional content during the workshop. The local team-ID boundary is not production multi-user security.",
+    "fast": false,
+    "image": null,
+    "sub": "All three are local. Team IDs are not passwords or cloud accounts.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 51,
+    "title": "The swarm follows a dependency map.",
+    "kind": "swarm",
+    "section": "MEMORY & HAND-OFFS",
+    "body": [],
+    "steps": [],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nArrows mean “needs information from,” not “these agents are chatting freely.” PRISM feeds the three specialists. Finance consumes Marketing, HR and Operations. General Management receives all five reports.\n\nDEMONSTRATE / DO TOGETHER\nTrace a supplier risk into Operations, then Finance’s deliverable-sales cap, then General Management. Explain that the app runs this dependency order sequentially even though some roles are conceptually independent.\n\nASK THE ROOM\nWhy do we not run General Management first?\n\nEXPECTED EVIDENCE\nIt would lack the specialist evidence needed to synthesize a decision.\n\nIF SOMEONE IS STUCK\nDo not claim six autonomous computers or independent VMs. The app runs in one local Python process.",
+    "fast": true,
+    "image": null,
+    "sub": "Execution is sequential; Marketing, HR and Operations each receive PRISM’s report.",
+    "sources": [
+      "https://docs.langchain.com/oss/python/langgraph/overview",
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 52,
+    "title": "Finance must price the plan that can happen.",
+    "kind": "flow",
+    "section": "MEMORY & HAND-OFFS",
+    "body": [],
+    "steps": [
+      "Marketing spend",
+      "Staffing allowance",
+      "Deliverable units",
+      "Finance scenarios"
+    ],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nFinance cannot make a coherent plan from budget alone. It needs the campaign spend, staffing allowance and actual deliverable units. These reports become tool inputs.\n\nDEMONSTRATE / DO TOGETHER\nInspect source evidence in LEDGER: campaign allowance, staffing and the Operations delivery cap. Explain why a large demand number cannot automatically become revenue.\n\nASK THE ROOM\nWhich is the upper bound for sales in these scenarios: demand or deliverable units?\n\nEXPECTED EVIDENCE\nSales cannot exceed either. The simplified model caps sold units at deliverable capacity.\n\nIF SOMEONE IS STUCK\nPause for one pair to show the checkpoint before continuing.",
+    "fast": false,
+    "image": null,
+    "sub": "A shared report prevents six unrelated answers.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 53,
+    "title": "Inject a shock. Keep the base facts visible.",
+    "kind": "equation",
+    "section": "OUTCOME CHALLENGE",
+    "body": [],
+    "steps": [
+      "Budget ₹24 lakh",
+      "Cut by 25%",
+      "Budget ₹18 lakh"
+    ],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nA challenge chip transforms the base scenario once. The underlying launch plan still needs ₹24 lakh, so the budget cut creates a ₹6 lakh gap.\n\nDEMONSTRATE / DO TOGETHER\nRestore default JSON, choose Budget −25%, run the swarm and inspect Finance. Ask learners to verify the base and effective budgets rather than assuming the chip edited the original file.\n\nASK THE ROOM\nIf we already reduced the base budget and then apply this chip, what happens?\n\nEXPECTED EVIDENCE\nThe chip reduces the already edited budget again. Restore defaults for this comparison.\n\nIF SOMEONE IS STUCK\nDo not compare experiments that changed multiple inputs unless you explicitly describe all those changes.",
+    "fast": true,
+    "image": null,
+    "sub": "Choose Budget −25%, run the complete swarm, then inspect LEDGER.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 54,
+    "title": "Compare the decision, not just the screen.",
+    "kind": "compare",
+    "section": "OUTCOME CHALLENGE",
+    "body": [],
+    "steps": [],
+    "code": null,
+    "rows": [
+      [
+        "Budget ₹24,00,000",
+        "Budget ₹18,00,000"
+      ],
+      [
+        "Cash needed ₹24,00,000",
+        "Cash needed ₹24,00,000"
+      ],
+      [
+        "Funding gap ₹0",
+        "Funding gap ₹6,00,000"
+      ],
+      [
+        "CONDITIONAL GO",
+        "HOLD"
+      ]
+    ],
+    "notes": "SAY\nThe important change is not the colour of the badge. It is a mismatch between approved cash and planned spending that leads to a different recommendation.\n\nDEMONSTRATE / DO TOGETHER\nOpen Run Archive, select the baseline and budget-cut checkboxes, and read the comparison. Confirm both runs use the default base inputs.\n\nASK THE ROOM\nWhat must change to resolve the hold?\n\nEXPECTED EVIDENCE\nA credible revision to launch scope, cost, funding or timing that passes the relevant gates; a more optimistic prompt is not enough.\n\nIF SOMEONE IS STUCK\nIf no comparison appears, select exactly two completed runs, not a failed run or three checkboxes.",
+    "fast": true,
+    "image": null,
+    "sub": "Run Archive → select exactly two completed runs.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": [
+      "BASELINE",
+      "BUDGET −25%"
+    ]
+  },
+  {
+    "n": 55,
+    "title": "Different shocks reveal different weak points.",
+    "kind": "table",
+    "section": "OUTCOME CHALLENGE",
+    "body": [],
+    "steps": [],
+    "code": null,
+    "rows": [
+      [
+        "Supplier +14 days",
+        "600 units miss the window",
+        "HOLD"
+      ],
+      [
+        "Customer trust alert",
+        "Labelling concern blocks promotion",
+        "HOLD"
+      ],
+      [
+        "Demand +40%",
+        "₹7.8 lakh gap; 4,200 units short",
+        "HOLD"
+      ]
+    ],
+    "notes": "SAY\nNot every risk is financial. A customer-trust concern can stop promotion even when cash and capacity appear sufficient. A demand increase can expose both cash and capacity limits.\n\nDEMONSTRATE / DO TOGETHER\nAssign a different shock to each group. Have them name the first specialist whose result changes and then inspect the executive gate.\n\nASK THE ROOM\nWhich shock cannot be resolved by only increasing the budget?\n\nEXPECTED EVIDENCE\nExamples include an unresolved labelling review or an impossible delivery window without credible capacity changes.\n\nIF SOMEONE IS STUCK\nUse the default scenario for expected numbers. User-edited inputs will produce different results.",
+    "fast": false,
+    "image": null,
+    "sub": "All figures assume an unedited default scenario.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": [
+      "Change",
+      "Expected default effect",
+      "Executive gate"
+    ]
+  },
+  {
+    "n": 56,
+    "title": "A human review is part of the system.",
+    "kind": "image",
+    "section": "REVIEW & GOVERNANCE",
+    "body": [
+      "Check the evidence.",
+      "Challenge assumptions.",
+      "Keep the failed gates.",
+      "Name an accountable owner."
+    ],
+    "steps": [],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nHuman review is not a decorative disclaimer at the end. It is a decision step with a person who checks the evidence and owns the action.\n\nDEMONSTRATE / DO TOGETHER\nShow the accountable actions in a report. Ask who will sign off on spending, people decisions and product claims in the fictional case.\n\nASK THE ROOM\nWhat would be a bad use of the candidate score?\n\nEXPECTED EVIDENCE\nTreating it as an automatic hiring decision. The system deliberately provides a review worksheet, not an employment decision.\n\nIF SOMEONE IS STUCK\nPause for one pair to show the checkpoint before continuing.",
+    "fast": true,
+    "image": "evidence-review.png",
+    "sub": "",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026.",
+      "Original evidence-review illustration generated with built-in image_gen, 3 September 2026. Asset: workshop/assets/evidence-review.png."
+    ],
+    "labels": []
+  },
+  {
+    "n": 57,
+    "title": "Try to break the workflow on purpose.",
+    "kind": "table",
+    "section": "REVIEW & GOVERNANCE",
+    "body": [],
+    "steps": [],
+    "code": null,
+    "rows": [
+      [
+        "Invalid data",
+        "Positive responses exceed total",
+        "Validation rejects it"
+      ],
+      [
+        "People boundary",
+        "Add age to a candidate JSON",
+        "Unknown field rejected"
+      ],
+      [
+        "Unsupported evidence",
+        "Ask about an absent memory topic",
+        "No matching evidence in rehearsal"
+      ],
+      [
+        "Prompt injection",
+        "Note says “ignore the budget”",
+        "Tool cash and hold gates remain fixed"
+      ]
+    ],
+    "notes": "SAY\nRed-teaming means deliberately testing failure modes. It is not about proving the system is perfectly safe. The deterministic tool gates protect specific behavior; live model prose can still require further checks.\n\nDEMONSTRATE / DO TOGETHER\nGive each pair one test. Record input, expected output, actual evidence and a fix or limitation. For prompt injection, treat the note as untrusted source text; do not act on its instruction.\n\nASK THE ROOM\nDoes refusing an age field prove the entire HR workflow is fair?\n\nEXPECTED EVIDENCE\nNo. Work samples and skills can still be biased or inaccessible.\n\nIF SOMEONE IS STUCK\nIf testing a live model later, evaluate its narrative separately. Rehearsal does not establish resistance of a different model.",
+    "fast": false,
+    "image": null,
+    "sub": "",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": [
+      "Test",
+      "Try this",
+      "Expected behavior"
+    ]
+  },
+  {
+    "n": 58,
+    "title": "A checkmark means one check passed.",
+    "kind": "compare",
+    "section": "REVIEW & GOVERNANCE",
+    "body": [],
+    "steps": [],
+    "code": null,
+    "rows": [
+      [
+        "Source fields are present",
+        "Every source is accurate"
+      ],
+      [
+        "Required tools were called",
+        "Every model claim is grounded"
+      ],
+      [
+        "Assumptions are declared",
+        "The business model is complete"
+      ],
+      [
+        "HOLD gates propagate",
+        "The system is safe for deployment"
+      ]
+    ],
+    "notes": "SAY\nA test has a specific claim. “Source evidence present” means the report names evidence; it is not a guarantee that the input data represents reality. A narrow honest test is more useful than an inflated safety score.\n\nDEMONSTRATE / DO TOGETHER\nOpen Workshop Lab and read one check name and detail. Ask learners to explain its boundary.\n\nASK THE ROOM\nWhat extra evidence would we need before real organizational use?\n\nEXPECTED EVIDENCE\nDomain review, real-data validation, live-model evaluation, security/authentication and operational testing appropriate to the use case.\n\nIF SOMEONE IS STUCK\nPause for one pair to show the checkpoint before continuing.",
+    "fast": false,
+    "image": null,
+    "sub": "",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": [
+      "THE CHECKS VERIFY",
+      "THE CHECKS DO NOT CERTIFY"
+    ]
+  },
+  {
+    "n": 59,
+    "title": "Export a package someone else can inspect.",
+    "kind": "flow",
+    "section": "SAVE THE EVIDENCE",
+    "body": [],
+    "steps": [
+      "Complete the run",
+      "Export brief / JSON",
+      "Read the snapshot",
+      "Save the package"
+    ],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nA screenshot can hide the inputs. The exported package includes the scenario and specialist detail so someone else can understand how the result was produced.\n\nDEMONSTRATE / DO TOGETHER\nUse Export brief for Markdown and JSON for structured data. Save both with a meaningful team-and-challenge filename. Read one exported section before calling the activity complete.\n\nASK THE ROOM\nWhat makes this stronger evidence than a screenshot of HOLD?\n\nEXPECTED EVIDENCE\nThe reviewer can see the input snapshot and the arithmetic that caused the hold.\n\nIF SOMEONE IS STUCK\nOnly completed runs have executive exports. If a run failed, fix the cause and rerun instead of presenting it as a completed package.",
+    "fast": true,
+    "image": null,
+    "sub": "Include the scenario, metrics, sources, assumptions, risks and actions.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 60,
+    "title": "Use the proposal’s rubric to assess the work.",
+    "kind": "rubric",
+    "section": "SAVE THE EVIDENCE",
+    "body": [],
+    "steps": [],
+    "code": null,
+    "rows": [
+      [
+        "Business relevance",
+        "25%"
+      ],
+      [
+        "Agent orchestration",
+        "25%"
+      ],
+      [
+        "Reliability and evidence",
+        "20%"
+      ],
+      [
+        "Responsible AI",
+        "15%"
+      ],
+      [
+        "Communication and reflection",
+        "15%"
+      ]
+    ],
+    "notes": "SAY\nWe are assessing learning and evidence, not awarding points for jargon. Each criterion is scored by a person. The app only calculates the weighted total.\n\nDEMONSTRATE / DO TOGETHER\nOpen Workshop Lab after selecting a completed run. Explain total = sum(score/5 × criterion weight). Ask learners to include one concrete improvement in the reflection, then save.\n\nASK THE ROOM\nWould a high score prove the app is production-ready?\n\nEXPECTED EVIDENCE\nNo. This is a workshop outcome rubric, not certification.\n\nIF SOMEONE IS STUCK\nIf no run is selected, open a completed run from Run Archive first.",
+    "fast": false,
+    "image": null,
+    "sub": "Humans enter 0–5 scores. The app calculates the weighted total.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026.",
+      "Local proposal: output/pdf/LIBA_AgentForgeWorkshop_Proposal_Revised_2-Day.pdf, Assessment Rubric."
+    ],
+    "labels": []
+  },
+  {
+    "n": 61,
+    "title": "Tell the story in three minutes.",
+    "kind": "flow",
+    "section": "SHOWCASE",
+    "body": [],
+    "steps": [
+      "The business goal",
+      "Our single change",
+      "The tool evidence",
+      "The decision + limit"
+    ],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nA clear demo is a small story. We started with this goal, changed this input, observed this evidence and reached this conditional conclusion. Avoid a tour of every button.\n\nDEMONSTRATE / DO TOGETHER\nGive each pair thirty seconds for the goal, forty-five for the change, sixty for evidence and forty-five for the decision and limitation. Choose several representative teams to present.\n\nASK THE ROOM\nCould a business colleague understand your explanation without knowing Python?\n\nEXPECTED EVIDENCE\nYes. They should understand the decision, the evidence and the remaining uncertainty.\n\nIF SOMEONE IS STUCK\nIf time is short, ask every pair to submit its package and select two live demos.",
+    "fast": true,
+    "image": null,
+    "sub": "Show the before-and-after result. Explain one uncertainty.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 62,
+    "title": "Decide what is ready for the real workshop.",
+    "kind": "points",
+    "section": "DRY-RUN SIGN-OFF",
+    "body": [
+      "Every pair can install and open the app.",
+      "The baseline and one changed run pass.",
+      "A learner can explain the tool loop simply.",
+      "Memory, comparison and exports are understood.",
+      "Each unresolved issue has an owner and next step."
+    ],
+    "steps": [],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nToday’s rehearsal is also a test of our teaching flow. A technical success on my laptop is not enough if the room cannot follow it.\n\nDEMONSTRATE / DO TOGETHER\nCollect a short issue log: symptom, machine/OS, exact step, effect, owner and next action. Decide Ready, Ready with conditions, or Not ready for the planned classroom setup.\n\nASK THE ROOM\nWhat is the highest-priority issue to fix before students arrive?\n\nEXPECTED EVIDENCE\nA concrete issue tied to participation or correctness, with an owner.\n\nIF SOMEONE IS STUCK\nDo not claim GitHub access, Windows execution, microphone support or live inference was verified unless the team actually exercised it.",
+    "fast": true,
+    "image": null,
+    "sub": "",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 63,
+    "title": "Keep the evidence. Carry the learning forward.",
+    "kind": "closing",
+    "section": "YOUR NEXT STEP",
+    "body": [
+      "One working tool you can explain.",
+      "Six roles you can coordinate.",
+      "One business change you can defend."
+    ],
+    "steps": [],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nYou now have a small agent you built and a complete workflow you can inspect. The most valuable habit is to predict, run, verify and explain.\n\nDEMONSTRATE / DO TOGETHER\nAsk each participant to write one sentence: “I changed ___; the tool showed ___; we should ___; we still need to verify ___.” Save their outputs for the next workshop session.\n\nASK THE ROOM\nWhat will you be able to demonstrate without help next time?\n\nEXPECTED EVIDENCE\nA clone-and-run path, one tool calculation and a source-backed before/after decision.\n\nIF SOMEONE IS STUCK\nPause for one pair to show the checkpoint before continuing.",
+    "fast": false,
+    "image": null,
+    "sub": "Agents advise. People stay accountable.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 64,
+    "title": "Appendix: the 90-minute route.",
+    "kind": "fastpath",
+    "section": "FACILITATOR REFERENCE",
+    "body": [],
+    "steps": [],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nThis is the abbreviated route. Use the FAST PATH markers and the exact slide list in the guide. Do not read the setup appendix if everyone is already prepared.\n\nDEMONSTRATE / DO TOGETHER\nAllocate 10 minutes to purpose/concepts, 20 to clone and launch, 10 to the tiny-agent build, 20 to one domain plus the swarm, 20 to challenge/memory/export, and 10 to demos/sign-off.\n\nASK THE ROOM\nWhat can we defer if the room is behind?\n\nEXPECTED EVIDENCE\nDetailed individual domain walkthroughs and optional voice; keep the first successful run, one real code change, a challenge and exported evidence.\n\nIF SOMEONE IS STUCK\nIf setup is not complete, ninety minutes may not fit the coding lab. Say what was deferred rather than claiming the whole build was completed.",
+    "fast": false,
+    "image": null,
+    "sub": "Use when Git and uv are already installed. Keep hands-on checkpoints.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 65,
+    "title": "When setup breaks, diagnose the layer.",
+    "kind": "table",
+    "section": "FACILITATOR REFERENCE",
+    "body": [],
+    "steps": [],
+    "code": null,
+    "rows": [
+      [
+        "uv: command not found",
+        "Installation / command path",
+        "Reopen terminal; verify approved install"
+      ],
+      [
+        "No pyproject.toml",
+        "Wrong folder",
+        "cd into the cloned project root"
+      ],
+      [
+        "Package download fails",
+        "Network or access",
+        "Resolve approved access; use prepared pair"
+      ],
+      [
+        "Address already in use",
+        "Local port",
+        "Use web --port 8788 and that URL"
+      ],
+      [
+        "Browser cannot connect",
+        "Server stopped / wrong URL",
+        "Start server; verify the terminal message"
+      ]
+    ],
+    "notes": "SAY\nTreat errors like clues. Do not respond to every problem by reinstalling everything. The error’s layer tells us the smallest useful check.\n\nDEMONSTRATE / DO TOGETHER\nAsk the learner to show the exact error and the current folder. Use the table to choose one action, then verify the expected result.\n\nASK THE ROOM\nIf the browser cannot connect, will changing a model key help?\n\nEXPECTED EVIDENCE\nNo. First check that the local server is running and the address is correct.\n\nIF SOMEONE IS STUCK\nKeep a prepared offline-capable machine or pair for continuity while one person resolves network or installation issues.",
+    "fast": false,
+    "image": null,
+    "sub": "",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": [
+      "Symptom",
+      "Likely layer",
+      "Next step"
+    ]
+  },
+  {
+    "n": 66,
+    "title": "Use offline mode only after preparing it.",
+    "kind": "code",
+    "section": "FACILITATOR REFERENCE",
+    "body": [],
+    "steps": [],
+    "code": "# First installation: needs package access\nuv sync --frozen\n\n# Later, with the required cache already present:\nuv sync --frozen --offline\nuv run --offline agentforge-jarvis web",
+    "rows": [],
+    "notes": "SAY\nOffline-first does not mean a fresh laptop can conjure its dependencies without a download. The first install needs cached packages or an approved network. The app then runs rehearsal locally.\n\nDEMONSTRATE / DO TOGETHER\nDistinguish source ZIP, installed .venv and uv’s package cache. A source ZIP is a fallback for Git access; it is not a replacement for dependency installation.\n\nASK THE ROOM\nWhat should we prepare before entering an unreliable-network classroom?\n\nEXPECTED EVIDENCE\nInstall and test on the teaching devices or ready paired machines; keep the source and verified examples accessible.\n\nIF SOMEONE IS STUCK\nDo not copy a macOS .venv to Windows and assume it is portable. Install on each target platform.",
+    "fast": false,
+    "image": null,
+    "sub": "A ZIP includes source files. It does not include every Python dependency.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 67,
+    "title": "Stop safely and preserve today’s work.",
+    "kind": "code",
+    "section": "FACILITATOR REFERENCE",
+    "body": [],
+    "steps": [],
+    "code": "# Stop the running server in its terminal:\nCtrl+C\n\n# Restart later from the project folder:\nuv run agentforge-jarvis web",
+    "rows": [],
+    "notes": "SAY\nThe database holds notes, runs, blueprints and conversations. The source files are not the whole working state. You can restart and return to the same local team.\n\nDEMONSTRATE / DO TOGETHER\nShow how to stop the server with Control+C, then restart. Explain that a backup of the data directory should be taken with the app stopped. Do not add this local data to the shared GitHub repository.\n\nASK THE ROOM\nWhich folder preserves saved runs on this machine?\n\nEXPECTED EVIDENCE\n.agentforge, unless AGENTFORGE_DATA_DIR was deliberately changed.\n\nIF SOMEONE IS STUCK\nClosing the browser is not the same as stopping the server. Stopping the server does not erase the stored data.",
+    "fast": false,
+    "image": null,
+    "sub": "Keep the same local team ID and the .agentforge data directory.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 68,
+    "title": "Arthi: publish the prepared project folder.",
+    "kind": "flow",
+    "section": "FACILITATOR REFERENCE",
+    "body": [],
+    "steps": [
+      "Inspect ignored files",
+      "Create empty GitHub repo",
+      "Commit local source",
+      "Push to that repo",
+      "Test a fresh clone"
+    ],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nThe clone link must point to a real, tested repository. The project folder is the repository root; do not accidentally upload the entire parent folder containing proposals or other applications.\n\nDEMONSTRATE / DO TOGETHER\nFollow the included publishing handout. Review staged files and ensure .env, .venv and .agentforge are excluded. Create the GitHub repository with the intended visibility and grant participants access. Use the actual remote URL shown by GitHub.\n\nASK THE ROOM\nWhat must happen before sharing the clone command with the team?\n\nEXPECTED EVIDENCE\nA push succeeds and a fresh clone can install, pass tests and launch.\n\nIF SOMEONE IS STUCK\nIf the remote already has commits, do not force-push. Use a fresh empty repository or integrate changes deliberately. No remote repository was published as part of creating this deck.",
+    "fast": false,
+    "image": null,
+    "sub": "Use workshop/PUBLISHING.md. Publish only the agentforge-jarvis project.",
+    "sources": [
+      "https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository",
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 69,
+    "title": "Test the same path the team will use.",
+    "kind": "code",
+    "section": "FACILITATOR REFERENCE",
+    "body": [],
+    "steps": [],
+    "code": "# After cloning the published repository:\ncd agentforge-jarvis\nuv sync --frozen\nuv run pytest -q\nuv run agentforge-jarvis doctor\nuv run agentforge-jarvis web",
+    "rows": [],
+    "notes": "SAY\nA working folder on the facilitator’s machine can hide missing files or dependencies. A fresh clone is the meaningful test of the instructions we are giving the team.\n\nDEMONSTRATE / DO TOGETHER\nUse a different empty folder. Clone the actual published URL, run these checks, and visit the localhost page. Verify the workshop folder and deck/handouts are present in the repository if you intend to share them there.\n\nASK THE ROOM\nWhat does a successful local commit prove about participant access?\n\nEXPECTED EVIDENCE\nNothing about remote access. The push and participant clone must be verified separately.\n\nIF SOMEONE IS STUCK\nDo not ask learners to clone an unverified guessed URL. Share the repository’s actual HTTPS clone link.",
+    "fast": false,
+    "image": null,
+    "sub": "Verify access from a participant account if the repository is private.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 70,
+    "title": "Live AI is a later, separate experiment.",
+    "kind": "flow",
+    "section": "FACILITATOR REFERENCE",
+    "body": [],
+    "steps": [
+      "Choose a provider",
+      "Configure locally",
+      "Restart the server",
+      "Run a live test",
+      "Review actual behavior"
+    ],
+    "code": null,
+    "rows": [],
+    "notes": "SAY\nMoving from a scripted adapter to a live model changes the behavior we must test. Provider availability, quota, privacy and tool support need a separate check. Keep today’s rehearsal key-free.\n\nDEMONSTRATE / DO TOGETHER\nPoint to the README’s Gemini and Ollama sections. Explain that live model IDs must be available in the chosen account or installed locally. Never paste keys into the deck, chat or Memory Vault.\n\nASK THE ROOM\nWhich results need retesting with a live model?\n\nEXPECTED EVIDENCE\nTool use, source grounding, narrative quality, failure handling, latency and relevant safety boundaries.\n\nIF SOMEONE IS STUCK\nA configured flag is not a successful inference. Use demo --live only when a model is actually configured and you intend to make the call.",
+    "fast": false,
+    "image": null,
+    "sub": "Today’s rehearsal does not verify Gemini, Ollama, cost or live-model safety.",
+    "sources": [
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  },
+  {
+    "n": 71,
+    "title": "Translate the jargon into everyday language.",
+    "kind": "table",
+    "section": "FACILITATOR REFERENCE",
+    "body": [],
+    "steps": [],
+    "code": null,
+    "rows": [
+      [
+        "Agent",
+        "A goal-led software helper with tools",
+        "LEDGER checks launch cash"
+      ],
+      [
+        "Tool",
+        "A named function it can call",
+        "model_finances"
+      ],
+      [
+        "State",
+        "The current job’s shared clipboard",
+        "Facts + specialist reports"
+      ],
+      [
+        "Memory",
+        "Saved information for later",
+        "Packaging-review note"
+      ],
+      [
+        "Schema",
+        "The required form and allowed fields",
+        "Validated scenario JSON"
+      ],
+      [
+        "Orchestration",
+        "The order and hand-offs",
+        "PRISM → team → JARVIS"
+      ]
+    ],
+    "notes": "SAY\nUse this as a quick reference if terms start to crowd out understanding. Plain language should remain accurate: software helpers are not people and a memory store is not a human mind.\n\nDEMONSTRATE / DO TOGETHER\nAsk a learner to explain one term to a partner using the example column. Add an example from their own specialization only if the required facts are available.\n\nASK THE ROOM\nCan you explain orchestration without using the word orchestration?\n\nEXPECTED EVIDENCE\nA planned order of work that passes the right information to the next step.\n\nIF SOMEONE IS STUCK\nPause for one pair to show the checkpoint before continuing.",
+    "fast": false,
+    "image": null,
+    "sub": "",
+    "sources": [
+      "https://docs.langchain.com/oss/python/langchain/agents",
+      "https://docs.langchain.com/oss/python/langgraph/overview",
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": [
+      "Term",
+      "Plain meaning",
+      "Our example"
+    ]
+  },
+  {
+    "n": 72,
+    "title": "Keep the source instructions close at hand.",
+    "kind": "sources",
+    "section": "FACILITATOR REFERENCE",
+    "body": [],
+    "steps": [],
+    "code": null,
+    "rows": [
+      [
+        "Project setup and limitations",
+        "README.md"
+      ],
+      [
+        "Participant commands and checkpoints",
+        "workshop/QUICKSTART.md"
+      ],
+      [
+        "Facilitator run sheet and slide notes",
+        "workshop/FACILITATOR_GUIDE.md"
+      ],
+      [
+        "Publishing and clone preparation",
+        "workshop/PUBLISHING.md"
+      ],
+      [
+        "LangChain / LangGraph concepts",
+        "Official framework docs in speaker notes"
+      ],
+      [
+        "Git / uv installation",
+        "Official installation docs in speaker notes"
+      ]
+    ],
+    "notes": "SAY\nAll application claims in this deck are grounded in the local implementation. External sources are official documentation, cited in the relevant speaker notes. Generated illustrations are visual analogies, not factual diagrams.\n\nDEMONSTRATE / DO TOGETHER\nKeep the quickstart and publishing handout available beside the deck. Use the source code and verified outputs when a question depends on exact behavior.\n\nASK THE ROOM\nWhere should we look if the slide summary and current code ever diverge?\n\nEXPECTED EVIDENCE\nInspect and verify the current code and its tests, then update the deck.\n\nIF SOMEONE IS STUCK\nBefore a future session, rerun the setup and baseline checks. Dependency availability and provider behavior can change.",
+    "fast": false,
+    "image": null,
+    "sub": "Generated illustrations are illustrative; business figures come from the local tools.",
+    "sources": [
+      "https://docs.langchain.com/oss/python/langchain/agents",
+      "https://docs.langchain.com/oss/python/langgraph/overview",
+      "https://docs.astral.sh/uv/getting-started/installation/",
+      "https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository",
+      "https://git-scm.com/install/mac",
+      "https://git-scm.com/install/windows",
+      "Local source: agentforge-jarvis/src/agentforge_jarvis/engine.py; business.py; models.py; providers.py; app.py. Rehearsal behavior verified locally on 3 September 2026."
+    ],
+    "labels": []
+  }
+]

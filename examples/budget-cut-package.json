@@ -1,0 +1,547 @@
+{
+  "id": "example-budget-cut",
+  "team": "example-team",
+  "created": "2026-09-03T03:26:19.804812+00:00",
+  "status": "completed",
+  "challenge": "budget-cut",
+  "domain": null,
+  "provider": "rehearsal",
+  "model": "rehearsal",
+  "scenario": {
+    "name": "Project Monsoon",
+    "company": "Aster Foods \u00b7 fictional",
+    "brief": "Launch a shelf-stable millet snack in Chennai and Bengaluru within 12 weeks, protecting customer trust and cash runway.",
+    "budget": 1800000.0,
+    "units": 30000,
+    "price": 120,
+    "unit_cost": 65,
+    "fixed_cost": 250000,
+    "marketing_budget": 180000,
+    "margin_target": 38,
+    "launch_days": 84,
+    "lead_days": 21,
+    "production_per_day": 600,
+    "team_fte": 8,
+    "required_fte": 10,
+    "hire_cost": 10000,
+    "required_skills": [
+      "planning",
+      "communication"
+    ],
+    "candidates": [
+      {
+        "candidate_id": "C-101",
+        "skills": [
+          "planning",
+          "communication",
+          "logistics"
+        ],
+        "work_sample_score": 82.0
+      },
+      {
+        "candidate_id": "C-102",
+        "skills": [
+          "planning",
+          "data analysis"
+        ],
+        "work_sample_score": 91.0
+      },
+      {
+        "candidate_id": "C-103",
+        "skills": [
+          "communication",
+          "sales"
+        ],
+        "work_sample_score": 77.0
+      }
+    ],
+    "signals": [
+      {
+        "channel": "Retail trials",
+        "responses": 120,
+        "positive": 92,
+        "previous_positive_rate": 0.7
+      },
+      {
+        "channel": "Creator sampling",
+        "responses": 90,
+        "positive": 71,
+        "previous_positive_rate": 0.72
+      },
+      {
+        "channel": "Campus survey",
+        "responses": 150,
+        "positive": 98,
+        "previous_positive_rate": 0.68
+      }
+    ],
+    "labelling_concern": false,
+    "evidence_note": "Fictional teaching inputs; unit economics, channels and candidates extend the original workshop scenario. Not market forecasts."
+  },
+  "base_scenario": {
+    "name": "Project Monsoon",
+    "company": "Aster Foods \u00b7 fictional",
+    "brief": "Launch a shelf-stable millet snack in Chennai and Bengaluru within 12 weeks, protecting customer trust and cash runway.",
+    "budget": 2400000,
+    "units": 30000,
+    "price": 120,
+    "unit_cost": 65,
+    "fixed_cost": 250000,
+    "marketing_budget": 180000,
+    "margin_target": 38,
+    "launch_days": 84,
+    "lead_days": 21,
+    "production_per_day": 600,
+    "team_fte": 8,
+    "required_fte": 10,
+    "hire_cost": 10000,
+    "required_skills": [
+      "planning",
+      "communication"
+    ],
+    "candidates": [
+      {
+        "candidate_id": "C-101",
+        "skills": [
+          "planning",
+          "communication",
+          "logistics"
+        ],
+        "work_sample_score": 82.0
+      },
+      {
+        "candidate_id": "C-102",
+        "skills": [
+          "planning",
+          "data analysis"
+        ],
+        "work_sample_score": 91.0
+      },
+      {
+        "candidate_id": "C-103",
+        "skills": [
+          "communication",
+          "sales"
+        ],
+        "work_sample_score": 77.0
+      }
+    ],
+    "signals": [
+      {
+        "channel": "Retail trials",
+        "responses": 120,
+        "positive": 92,
+        "previous_positive_rate": 0.7
+      },
+      {
+        "channel": "Creator sampling",
+        "responses": 90,
+        "positive": 71,
+        "previous_positive_rate": 0.72
+      },
+      {
+        "channel": "Campus survey",
+        "responses": 150,
+        "positive": 98,
+        "previous_positive_rate": 0.68
+      }
+    ],
+    "labelling_concern": false,
+    "evidence_note": "Fictional teaching inputs; unit economics, channels and candidates extend the original workshop scenario. Not market forecasts."
+  },
+  "reports": {
+    "analytics": {
+      "domain": "analytics",
+      "headline": "72.5% positive intent across 360 responses",
+      "recommendation": "Use channel-level signals to design a small controlled launch. Track conversion, repeat purchase, complaints and contribution margin weekly.",
+      "metrics": {
+        "responses": 360,
+        "positive_pct": 72.5,
+        "trend_pp": 2.83,
+        "interval_low_pct": 67.67,
+        "interval_high_pct": 76.86
+      },
+      "evidence": [
+        "scenario.signals: 261/360 positive responses; weighted previous rate 0.6967.",
+        "95% Wilson binomial interval, z=1.96; descriptive only."
+      ],
+      "assumptions": [
+        "All source inputs are fictional workshop data.",
+        "Responses are treated as independent for the interval; representativeness is unverified."
+      ],
+      "risks": [
+        "Convenience samples can overstate demand; responses are not sales."
+      ],
+      "actions": [
+        {
+          "owner": "Analytics",
+          "task": "Measure purchases / eligible trial participants by channel",
+          "gate": "Weekly review with channel denominators"
+        }
+      ],
+      "details": [
+        {
+          "channel": "Retail trials",
+          "responses": 120,
+          "positive_pct": 76.67,
+          "change_pp": 6.67
+        },
+        {
+          "channel": "Creator sampling",
+          "responses": 90,
+          "positive_pct": 78.89,
+          "change_pp": 6.89
+        },
+        {
+          "channel": "Campus survey",
+          "responses": 150,
+          "positive_pct": 65.33,
+          "change_pp": -2.67
+        }
+      ],
+      "status": "review",
+      "narrative": "[Rehearsal \u00b7 computed evidence]\n72.5% positive intent across 360 responses\n\nUse channel-level signals to design a small controlled launch. Track conversion, repeat purchase, complaints and contribution margin weekly.\n\nscenario.signals: 261/360 positive responses; weighted previous rate 0.6967.\n95% Wilson binomial interval, z=1.96; descriptive only.",
+      "tools_called": [
+        "read_brief",
+        "analyze_signals",
+        "search_memory"
+      ]
+    },
+    "marketing": {
+      "domain": "marketing",
+      "headline": "Start with creator sampling",
+      "recommendation": "Run a measured sampling pilot with the strongest observed channel; review conversion before expanding spend.",
+      "metrics": {
+        "campaign_budget_inr": 180000,
+        "allocated_inr": 180000.0,
+        "channels": 3,
+        "trust_gate": "review"
+      },
+      "evidence": [
+        "scenario.signals and scenario.marketing_budget; allocation proportional to positive counts.",
+        "analytics hand-off: 72.5% positive intent across 360 responses"
+      ],
+      "assumptions": [
+        "All source inputs are fictional workshop data.",
+        "Budget allocation is a teaching heuristic; no ROI is established."
+      ],
+      "risks": [
+        "Survey intent is not causal evidence of channel performance."
+      ],
+      "actions": [
+        {
+          "owner": "Marketing",
+          "task": "Approve labelled draft copy and run a controlled pilot",
+          "gate": "Customer trust and claim review before publication"
+        }
+      ],
+      "details": [
+        {
+          "channel": "Creator sampling",
+          "budget_inr": 48965.52,
+          "positive_pct": 78.89,
+          "draft_message": "A millet snack for your workday. Explore ingredients before you try."
+        },
+        {
+          "channel": "Retail trials",
+          "budget_inr": 63448.28,
+          "positive_pct": 76.67,
+          "draft_message": "A millet snack for your workday. Explore ingredients before you try."
+        },
+        {
+          "channel": "Campus survey",
+          "budget_inr": 67586.2,
+          "positive_pct": 65.33,
+          "draft_message": "A millet snack for your workday. Explore ingredients before you try."
+        }
+      ],
+      "status": "review",
+      "narrative": "[Rehearsal \u00b7 computed evidence]\nStart with creator sampling\n\nRun a measured sampling pilot with the strongest observed channel; review conversion before expanding spend.\n\nscenario.signals and scenario.marketing_budget; allocation proportional to positive counts.\nanalytics hand-off: 72.5% positive intent across 360 responses",
+      "tools_called": [
+        "read_brief",
+        "plan_marketing",
+        "search_memory"
+      ]
+    },
+    "hr": {
+      "domain": "hr",
+      "headline": "Close a 2 FTE capacity gap",
+      "recommendation": "Review the anonymous skills worksheet, calibrate work samples and assign training or temporary staffing. The worksheet does not make hiring decisions.",
+      "metrics": {
+        "available_fte": 8,
+        "required_fte": 10,
+        "gap_fte": 2,
+        "staffing_cost_inr": 20000,
+        "candidates": 3
+      },
+      "evidence": [
+        "scenario.team_fte=8; required_fte=10.",
+        "Review score = 60% required-skill coverage + 40% work-sample score; only allowlisted candidate fields are accepted."
+      ],
+      "assumptions": [
+        "All source inputs are fictional workshop data.",
+        "Staffing cost is a one-time workshop planning allowance per additional FTE, not a salary estimate."
+      ],
+      "risks": [
+        "Skills and sample scores may still contain bias; protected-attribute exclusion does not establish fairness.",
+        "No demographic parity claim can be made from this anonymous dataset."
+      ],
+      "actions": [
+        {
+          "owner": "HR",
+          "task": "Calibrate the rubric with a human reviewer and check accessibility",
+          "gate": "No candidate rejection or offer from this score"
+        },
+        {
+          "owner": "HR",
+          "task": "Plan capacity for 2 additional FTE",
+          "gate": "Finance approval of staffing allowance"
+        }
+      ],
+      "details": [
+        {
+          "candidate_id": "C-101",
+          "skill_coverage_pct": 100.0,
+          "work_sample_score": 82.0,
+          "review_score": 92.8,
+          "missing_skills": "None",
+          "decision": "Human review required"
+        },
+        {
+          "candidate_id": "C-102",
+          "skill_coverage_pct": 50.0,
+          "work_sample_score": 91.0,
+          "review_score": 66.4,
+          "missing_skills": "communication",
+          "decision": "Human review required"
+        },
+        {
+          "candidate_id": "C-103",
+          "skill_coverage_pct": 50.0,
+          "work_sample_score": 77.0,
+          "review_score": 60.8,
+          "missing_skills": "planning",
+          "decision": "Human review required"
+        }
+      ],
+      "status": "review",
+      "narrative": "[Rehearsal \u00b7 computed evidence]\nClose a 2 FTE capacity gap\n\nReview the anonymous skills worksheet, calibrate work samples and assign training or temporary staffing. The worksheet does not make hiring decisions.\n\nscenario.team_fte=8; required_fte=10.\nReview score = 60% required-skill coverage + 40% work-sample score; only allowlisted candidate fields are accepted.",
+      "tools_called": [
+        "read_brief",
+        "screen_skills",
+        "search_memory"
+      ]
+    },
+    "operations": {
+      "domain": "operations",
+      "headline": "Production fits the launch window",
+      "recommendation": "Stage an initial release of at most 30,000 units. Reserve production capacity and validate supplier readiness before commitments.",
+      "metrics": {
+        "production_days": 50,
+        "completion_day": 71,
+        "buffer_days": 13,
+        "deliverable_units": 30000,
+        "capacity_units": 37800,
+        "shortfall_units": 0
+      },
+      "evidence": [
+        "Completion = 21 lead days + ceil(30000/600) = 71 days.",
+        "Capacity = max(0, 84-21) \u00d7 600 = 37800 units."
+      ],
+      "assumptions": [
+        "All source inputs are fictional workshop data.",
+        "The lead-time and production phases are sequential; lead time includes delivery to production."
+      ],
+      "risks": [
+        "Daily capacity is assumed constant; downtime, transit and quality failures are not modelled."
+      ],
+      "actions": [
+        {
+          "owner": "Operations",
+          "task": "Confirm supplier milestone and alternate capacity",
+          "gate": "Supplier confirmation before production release"
+        }
+      ],
+      "details": [
+        {
+          "phase": "Supply lead time",
+          "days": 21
+        },
+        {
+          "phase": "Production",
+          "days": 50
+        }
+      ],
+      "status": "review",
+      "narrative": "[Rehearsal \u00b7 computed evidence]\nProduction fits the launch window\n\nStage an initial release of at most 30,000 units. Reserve production capacity and validate supplier readiness before commitments.\n\nCompletion = 21 lead days + ceil(30000/600) = 71 days.\nCapacity = max(0, 84-21) \u00d7 600 = 37800 units.",
+      "tools_called": [
+        "read_brief",
+        "assess_supply",
+        "search_memory"
+      ]
+    },
+    "finance": {
+      "domain": "finance",
+      "headline": "INR 600,000 funding gap",
+      "recommendation": "Phase production or reallocate approved spend before launch; the full plan exceeds the current financial gates.",
+      "metrics": {
+        "budget_inr": 1800000.0,
+        "cash_required_inr": 2400000.0,
+        "funding_gap_inr": 600000.0,
+        "headroom_inr": -600000.0,
+        "gross_margin_pct": 45.83,
+        "margin_target_pct": 38,
+        "break_even_units": 8182,
+        "fixed_and_launch_cost_inr": 450000.0
+      },
+      "evidence": [
+        "Cash required = 30,000 \u00d7 INR 65 + INR 250,000 fixed + INR 180,000 marketing + INR 20,000 staffing = INR 2,400,000.",
+        "Gross margin = (120-65)/120 \u00d7 100.",
+        "Revenue is constrained to 30000 deliverable units by Operations."
+      ],
+      "assumptions": [
+        "All source inputs are fictional workshop data.",
+        "All units are financed upfront, unsold inventory retains its cost, and sold units collect cash immediately.",
+        "Scenario contribution less fixed costs is not accounting net profit."
+      ],
+      "risks": [
+        "Taxes, financing, returns and payment collection delays are excluded.",
+        "Budget is insufficient for full upfront production."
+      ],
+      "actions": [
+        {
+          "owner": "Finance",
+          "task": "Approve a cash plan and test downside sell-through",
+          "gate": "No spend approval until the funding and margin gates pass"
+        }
+      ],
+      "details": [
+        {
+          "case": "Downside",
+          "demand_units": 18000,
+          "sold_units": 18000,
+          "revenue_inr": 2160000,
+          "contribution_less_fixed_inr": 540000.0,
+          "cash_after_launch_inr": 1560000.0
+        },
+        {
+          "case": "Base",
+          "demand_units": 30000,
+          "sold_units": 30000,
+          "revenue_inr": 3600000,
+          "contribution_less_fixed_inr": 1200000.0,
+          "cash_after_launch_inr": 3000000.0
+        },
+        {
+          "case": "Upside",
+          "demand_units": 42000,
+          "sold_units": 30000,
+          "revenue_inr": 3600000,
+          "contribution_less_fixed_inr": 1200000.0,
+          "cash_after_launch_inr": 3000000.0
+        }
+      ],
+      "status": "hold",
+      "narrative": "[Rehearsal \u00b7 computed evidence]\nINR 600,000 funding gap\n\nPhase production or reallocate approved spend before launch; the full plan exceeds the current financial gates.\n\nCash required = 30,000 \u00d7 INR 65 + INR 250,000 fixed + INR 180,000 marketing + INR 20,000 staffing = INR 2,400,000.\nGross margin = (120-65)/120 \u00d7 100.\nRevenue is constrained to 30000 deliverable units by Operations.",
+      "tools_called": [
+        "read_brief",
+        "model_finances",
+        "search_memory"
+      ]
+    },
+    "general-management": {
+      "domain": "general-management",
+      "headline": "HOLD \u00b7 executive launch recommendation",
+      "recommendation": "Resolve blocked gates, rerun the swarm and obtain human sign-off before launch.",
+      "metrics": {
+        "decision": "HOLD",
+        "reports_received": 5,
+        "blocked_gates": 1
+      },
+      "evidence": [
+        "analytics hand-off: 72.5% positive intent across 360 responses",
+        "marketing hand-off: Start with creator sampling",
+        "hr hand-off: Close a 2 FTE capacity gap",
+        "operations hand-off: Production fits the launch window",
+        "finance hand-off: INR 600,000 funding gap"
+      ],
+      "assumptions": [
+        "All source inputs are fictional workshop data.",
+        "No specialist hold can be overridden by the synthesis agent."
+      ],
+      "risks": [
+        "Full launch scope conflicts with the Finance cash or margin gate."
+      ],
+      "actions": [
+        {
+          "owner": "General Management",
+          "task": "Review every specialist gate and sign the executive package",
+          "gate": "Human approval required"
+        },
+        {
+          "owner": "Analytics",
+          "task": "Review launch KPIs with the team after the pilot",
+          "gate": "Pause if trust, cash or delivery assumptions fail"
+        }
+      ],
+      "details": [
+        {
+          "agent": "analytics",
+          "gate": "review",
+          "finding": "72.5% positive intent across 360 responses"
+        },
+        {
+          "agent": "marketing",
+          "gate": "review",
+          "finding": "Start with creator sampling"
+        },
+        {
+          "agent": "hr",
+          "gate": "review",
+          "finding": "Close a 2 FTE capacity gap"
+        },
+        {
+          "agent": "operations",
+          "gate": "review",
+          "finding": "Production fits the launch window"
+        },
+        {
+          "agent": "finance",
+          "gate": "hold",
+          "finding": "INR 600,000 funding gap"
+        }
+      ],
+      "status": "hold",
+      "narrative": "[Rehearsal \u00b7 computed evidence]\nHOLD \u00b7 executive launch recommendation\n\nResolve blocked gates, rerun the swarm and obtain human sign-off before launch.\n\nanalytics hand-off: 72.5% positive intent across 360 responses\nmarketing hand-off: Start with creator sampling\nhr hand-off: Close a 2 FTE capacity gap\noperations hand-off: Production fits the launch window\nfinance hand-off: INR 600,000 funding gap",
+      "tools_called": [
+        "read_brief",
+        "synthesize_strategy",
+        "search_memory"
+      ]
+    }
+  },
+  "checks": [
+    {
+      "name": "Source evidence",
+      "passed": true,
+      "detail": "Every included report names input or upstream evidence."
+    },
+    {
+      "name": "Observable tool use",
+      "passed": true,
+      "detail": "Each agent called its required domain tool through LangChain."
+    },
+    {
+      "name": "Assumptions declared",
+      "passed": true,
+      "detail": "Scenario and model limitations accompany each output."
+    },
+    {
+      "name": "Hold propagation",
+      "passed": true,
+      "detail": "The executive decision preserves blocked specialist gates."
+    }
+  ],
+  "duration_seconds": null,
+  "error": null
+}
