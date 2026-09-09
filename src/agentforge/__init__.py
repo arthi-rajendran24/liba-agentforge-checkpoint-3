@@ -1,0 +1,1 @@
+"""AgentForge checkpoint recovery reference."""

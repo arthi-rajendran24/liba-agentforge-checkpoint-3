@@ -1,0 +1,9 @@
+{
+  "checkpoint": 1,
+  "name": "tested-domain-tool",
+  "inherits": [],
+  "required_layers": ["scaffold", "deterministic_tool", "offline_tests"],
+  "preserve_from_student": ["src/agentforge/tools.py", "tests/test_tools.py", "BUILD.md"],
+  "network_required": false,
+  "verification": "uv run pytest -q"
+}
