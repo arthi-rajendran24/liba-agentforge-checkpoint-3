@@ -1,9 +1,10 @@
 {
-  "checkpoint": 1,
-  "name": "tested-domain-tool",
-  "inherits": [],
-  "required_layers": ["scaffold", "deterministic_tool", "offline_tests"],
+  "checkpoint": 2,
+  "name": "live-capable-domain-agent",
+  "inherits": ["checkpoint-1"],
+  "required_layers": ["scaffold", "deterministic_tool", "offline_tests", "compatibility_adapter", "shared_service", "local_interface"],
   "preserve_from_student": ["src/agentforge/tools.py", "tests/test_tools.py", "BUILD.md"],
-  "network_required": false,
+  "preferred_additions": ["src/agentforge/contracts.py", "src/agentforge/student_adapter.py", "src/agentforge/service.py", "app.py"],
+  "network_required": "only for one deliberate live check",
   "verification": "uv run pytest -q"
 }
