@@ -36,6 +36,12 @@ uv run agentforge-jarvis web
 
 Open `http://127.0.0.1:8787`. Use `AGENTFORGE_PROVIDER=rehearsal` for an offline classroom run. A deliberate live Gemini acceptance check remains separate because it consumes quota.
 
+The optional Telegram adapter is also part of Checkpoint 3. It reuses the complete command service for text and the same bounded Gemini extraction path for images. Extracted image text returns for review and never enters memory automatically.
+
+```sh
+uv run python workshop/telegram_bot.py
+```
+
 ## Synchronization contract
 
 The Checkpoint 3 repository must match the canonical AgentForge repository tree at its recorded upstream commit. Only `.git` metadata may differ. The release validation compares every tracked path and SHA-256 digest before publishing the three repositories or rebuilding the classroom ZIPs.
