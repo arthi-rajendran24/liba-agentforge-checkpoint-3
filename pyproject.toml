@@ -5,7 +5,9 @@ requires-python = ">=3.11,<3.14"
 dependencies = [
   "langchain>=1,<2",
   "langchain-google-genai>=4,<5",
+  "google-genai>=1,<2",
   "python-dotenv>=1,<2",
+  "python-telegram-bot>=21,<23",
   "streamlit>=1.40,<2",
 ]
 

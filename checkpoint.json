@@ -1,10 +1,10 @@
 {
-  "checkpoint": 2,
-  "name": "live-capable-domain-agent",
-  "inherits": ["checkpoint-1"],
-  "required_layers": ["scaffold", "deterministic_tool", "offline_tests", "compatibility_adapter", "shared_service", "local_interface"],
-  "preserve_from_student": ["src/agentforge/tools.py", "tests/test_tools.py", "BUILD.md"],
-  "preferred_additions": ["src/agentforge/contracts.py", "src/agentforge/student_adapter.py", "src/agentforge/service.py", "app.py"],
-  "network_required": "only for one deliberate live check",
+  "checkpoint": 3,
+  "name": "end-to-end-reviewed-agent",
+  "inherits": ["checkpoint-1", "checkpoint-2"],
+  "required_layers": ["scaffold", "deterministic_tool", "offline_tests", "compatibility_adapter", "shared_service", "local_interface", "image_validation", "review_gate", "approved_memory", "reused_channel"],
+  "preserve_from_student": ["src/agentforge/tools.py", "tests/test_tools.py", "src/agentforge/student_adapter.py", "src/agentforge/service.py", "app.py", "BUILD.md"],
+  "preferred_additions": ["src/agentforge/evidence.py", "src/agentforge/memory.py", "src/agentforge/channel.py", "telegram_bot.py"],
+  "network_required": "only for deliberate Gemini extraction or Telegram checks",
   "verification": "uv run pytest -q"
 }
